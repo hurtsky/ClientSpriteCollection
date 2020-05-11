@@ -8876,7 +8876,7 @@ _NeedSkillList = {
 }
 }
 , 
-[SKID.WE_MALE] = {"WE_MALE"; SkillName = "당신만은 지킬께요", MaxLv = 1, 
+[SKID.WE_MALE] = {"WE_MALE"; SkillName = "당신만은 지킬게요", MaxLv = 1, 
 SpAmount = {1}
 , bSeperateLv = false, 
 AttackRange = {9}
@@ -8892,7 +8892,7 @@ _NeedSkillList = {
 }
 }
 , 
-[SKID.WE_FEMALE] = {"WE_FEMALE"; SkillName = "당신을 위해서 희생할께요", MaxLv = 1, 
+[SKID.WE_FEMALE] = {"WE_FEMALE"; SkillName = "당신을 위해서 희생할게요", MaxLv = 1, 
 SpAmount = {1}
 , bSeperateLv = false, 
 AttackRange = {9}

@@ -7119,4 +7119,15 @@ descript = {
 {"모든 속성 마법 데미지 15% 증가"}
 }
 }
+-- DECOMPILER ERROR at PC14761: Confused about usage of register: R0 in 'UnsetPending'
+
+StateIconList[EFST_IDs.EFST_HOMUN_TIME] = {haveTimeLimit = 1, posTimeLimitStr = 2, 
+descript = {
+{"콜 호문클루스", COLOR_TITLE_BUFF}
+, 
+{"%s", COLOR_TIME}
+, 
+{"호문클루스 활성화 상태"}
+}
+}
 

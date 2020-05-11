@@ -5,6 +5,142 @@
 -- function num : 0
 tblLapineDdukddakBox = {
 sources = {
+MeawFoxtail_Cube = {ItemID = 100399, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"MeawFoxtail", 1, 26155}
+}
+, NeedSource_String = "냥냥 강아지풀"}
+, 
+Fog_Dew_Sword_Cube = {ItemID = 100400, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"Fog_Dew_Sword", 1, 28764}
+}
+, NeedSource_String = "키리노츠유"}
+, 
+Humma_Clear_Cube = {ItemID = 100401, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"Humma_Clear", 1, 13345}
+}
+, NeedSource_String = "풍마수리검 청명"}
+, 
+Iron_Nail_K_Cube = {ItemID = 100388, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"Iron_Nail_K", 1, 1847}
+}
+, NeedSource_String = "아이언 네일"}
+, 
+Ray_Knuckle_Cube = {ItemID = 100390, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"Ray_Knuckle", 1, 560002}
+}
+, NeedSource_String = "레이 너클"}
+, 
+Undine_Spear_K_Cube = {ItemID = 100393, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"Undine_Spear_K", 1, 32018}
+}
+, NeedSource_String = "아쿠아틱 스피어"}
+, 
+Light_Blade_Cube = {ItemID = 100394, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"Light_Blade", 1, 500003}
+}
+, NeedSource_String = "라이트 블레이드"}
+, 
+Iron_Staff_Cube = {ItemID = 100395, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"Iron_Staff", 1, 2048}
+}
+, NeedSource_String = "아이언 스태프"}
+, 
+Blue_Crystal_Staff_Cube = {ItemID = 100396, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"Blue_Crystal_Staff", 1, 640004}
+}
+, NeedSource_String = "블루 크리스탈 스태프"}
+, 
+Demon_Hunt_Bible_Cube = {ItemID = 100397, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"Demon_Hunting_Bible_K", 1, 28630}
+}
+, NeedSource_String = "퇴마의 성서"}
+, 
+Saint_Hall_Cube = {ItemID = 100398, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"Saint_Hall", 1, 590003}
+}
+, NeedSource_String = "세인트 홀"}
+, 
+EnchantStone_Recipe_3m = {ItemID = 100433, NeedCount = 1, NeedRefineMin = 0, NeedRefineMax = 0, 
+SourceItems = {
+{"C_Pretty_Bear_WH", 1, 31799}
+, 
+{"C_FortunetellinSealed", 1, 31735}
+, 
+{"C_Floating_Ball_TW", 1, 31568}
+, 
+{"C_Dark_Snake_Lord_Stall", 1, 31611}
+, 
+{"C_Bicolor_Cat_Witch_Hat", 1, 31832}
+, 
+{"C_Twin_Canon", 1, 31671}
+, 
+{"C_Picnic_Basket", 1, 31673}
+, 
+{"C_Magic_Helm", 1, 31884}
+, 
+{"C_Fawn_Ear", 1, 31509}
+, 
+{"C_Happy_Cat_TW", 1, 440002}
+, 
+{"C_Royalguard_Necklace", 1, 31559}
+, 
+{"C추억의밤하늘", 1, 20451}
+, 
+{"C_Under_Rim_Glasses_Bu", 1, 31601}
+, 
+{"C모노크롬캡", 1, 20153}
+, 
+{"C회중시계머리장식", 1, 20379}
+, 
+{"C_Poring_Traffic_Light", 1, 31404}
+, 
+{"C_PGstone_Knit_Hat_PK", 1, 31906}
+, 
+{"C_Frill_Collar", 1, 31916}
+, 
+{"C_Rose_Gothic_Bonnet", 1, 31848}
+, 
+{"C_LittleGarden", 1, 31911}
+, 
+{"C_Blinking_Eyes_RD", 1, 31716}
+}
+, NeedSource_String = "3월의 냥다래 의상"}
+, 
+Royal_Bow_K_Cube = {ItemID = 100376, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"Royal_Bow_K", 1, 18164}
+}
+, NeedSource_String = "왕가의 활"}
+, 
+Scalet_Dragon_L_Cube = {ItemID = 100377, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"Scalet_Dragon_L_Bow", 1, 700003}
+}
+, NeedSource_String = "스칼렛 드래곤 레더보우"}
+, 
+Shadow_Staff_K_Cube = {ItemID = 100378, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"Shadow_Staff_K", 1, 26118}
+}
+, NeedSource_String = "쉐도우 스태프"}
+, 
+Freezing_Rod_Cube = {ItemID = 100379, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"Freezing_Rod", 1, 550007}
+}
+, NeedSource_String = "냉기의 지팡이"}
+, 
 ["3Lv_9Refine_Weapon_7Gu"] = {ItemID = 100381, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 9, 
 SourceItems = {
 {"진홍의너클", 1, 1839}
@@ -2838,6 +2974,48 @@ SourceItems = {
 {"S_Genesis_Pendant", 1, 24582}
 , 
 {"S_Genesis_Earing", 1, 24583}
+, 
+{"S_Tail_Dragon_Weapon", 1, 24601}
+, 
+{"S_Tail_Dragon_Shield", 1, 24602}
+, 
+{"S_Tail_Dragon_Armor", 1, 24603}
+, 
+{"S_Flare_Dance_Earing", 1, 24604}
+, 
+{"S_Flare_Dance_Pendant", 1, 24605}
+, 
+{"S_Flare_Dance_Shoes", 1, 24606}
+, 
+{"S_God_Hammer_Weapon", 1, 24607}
+, 
+{"S_God_Hammer_Shield", 1, 24608}
+, 
+{"S_God_Hammer_Armor", 1, 24609}
+, 
+{"S_Shatter_Buster_Earing", 1, 24610}
+, 
+{"S_Shatter_B_Pendant", 1, 24611}
+, 
+{"S_Shatter_Buster_Shoes", 1, 24612}
+, 
+{"S_Trip_Weapon", 1, 24613}
+, 
+{"S_Trip_Shield", 1, 24614}
+, 
+{"S_Trip_Armor", 1, 24615}
+, 
+{"S_Super_Magic_Shield", 1, 24616}
+, 
+{"S_Super_Magic_Armor", 1, 24617}
+, 
+{"S_Super_Magic_Shoes", 1, 24618}
+, 
+{"S_Super_Power_Weapon", 1, 24619}
+, 
+{"S_Super_Power_Pendant", 1, 24620}
+, 
+{"S_Super_Power_Earing", 1, 24621}
 }
 , NeedSource_String = "쉐도우 아이템"}
 , 
@@ -4384,6 +4562,14 @@ SourceItems = {
 {"C_Poring_Traffic_Light", 1, 31404}
 , 
 {"C_PGstone_Knit_Hat_PK", 1, 31906}
+, 
+{"C늘어진구미호", 1, 19802}
+, 
+{"C_Sakura_Wing", 1, 20599}
+, 
+{"C보고있어", 1, 31176}
+, 
+{"C울프마스커레이드", 1, 31179}
 }
 , NeedSource_String = "냥다래 의상"}
 }

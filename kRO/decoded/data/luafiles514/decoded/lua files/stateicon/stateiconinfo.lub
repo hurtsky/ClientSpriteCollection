@@ -6454,43 +6454,43 @@ descript = {
 {"암속성 공격에 대한 내성 감소."}
 }
 }
--- DECOMPILER ERROR at PC13369: Confused about usage of register: R0 in 'UnsetPending'
+-- DECOMPILER ERROR at PC13366: Confused about usage of register: R0 in 'UnsetPending'
 
 StateIconList[EFST_IDs.EFST_FLOWER_LEAF2] = {haveTimeLimit = 1, posTimeLimitStr = 2, 
 descript = {
-{"사냥꾼의 날렵함", COLOR_TITLE_BUFF}
+{"화려한 꽃가지", COLOR_TITLE_BUFF}
 , 
 {"%s", COLOR_TIME}
 , 
-{"Flee + 30"}
-, 
-{"완전회피 + 2"}
+{"Flee 증가, 완전 회피 증가"}
 , 
 {"공격 속도 증가"}
 , 
 {"변동 캐스팅 감소"}
 }
 }
--- DECOMPILER ERROR at PC13393: Confused about usage of register: R0 in 'UnsetPending'
+-- DECOMPILER ERROR at PC13390: Confused about usage of register: R0 in 'UnsetPending'
 
 StateIconList[EFST_IDs.EFST_FLOWER_LEAF3] = {haveTimeLimit = 1, posTimeLimitStr = 2, 
 descript = {
-{"공격력 증가", COLOR_TITLE_BUFF}
+{"아담한 꽃가지", COLOR_TITLE_BUFF}
 , 
 {"%s", COLOR_TIME}
 , 
-{"ATK 5% 증가."}
+{"MHP, MSP 증가"}
 }
 }
 -- DECOMPILER ERROR at PC13417: Confused about usage of register: R0 in 'UnsetPending'
 
 StateIconList[EFST_IDs.EFST_FLOWER_LEAF4] = {haveTimeLimit = 1, posTimeLimitStr = 2, 
 descript = {
-{"마법 공격력 증가", COLOR_TITLE_BUFF}
+{"벚꽃 찰떡", COLOR_TITLE_BUFF}
 , 
 {"%s", COLOR_TIME}
 , 
-{"MATK 5% 증가."}
+{"소형, 중형, 대형 적에게"}
+, 
+{"주는 데미지 증가"}
 }
 }
 -- DECOMPILER ERROR at PC13441: Confused about usage of register: R0 in 'UnsetPending'

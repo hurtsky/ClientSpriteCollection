@@ -2453,7 +2453,7 @@ _NeedSkillList = {
 }
 , 
 [SKID.NJ_KAMAITACHI] = {"NJ_KAMAITACHI"; SkillName = "삭풍(朔風)", MaxLv = 5, 
-SpAmount = {24, 28, 32, 36, 40}
+SpAmount = {17, 19, 21, 23, 25}
 , bSeperateLv = true, 
 AttackRange = {5, 6, 7, 8, 9}
 , 
@@ -8508,7 +8508,7 @@ SpAmount = {12, 14, 16, 18, 20, 22, 24, 26, 28, 30}
 AttackRange = {9, 9, 9, 9, 9, 9, 9, 9, 9, 9}
 }
 , 
-[SKID.BA_ASSASSINCROSS] = {"BA_ASSASSINCROSS"; SkillName = "석양의 어세신 크로스", MaxLv = 10, 
+[SKID.BA_ASSASSINCROSS] = {"BA_ASSASSINCROSS"; SkillName = "석양의 어쌔신 크로스", MaxLv = 10, 
 SpAmount = {40, 45, 50, 55, 60, 65, 70, 75, 80, 85}
 , bSeperateLv = true, 
 AttackRange = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1}
@@ -8786,7 +8786,7 @@ _NeedSkillList = {
 }
 }
 , 
-[SKID.WE_MALE] = {"WE_MALE"; SkillName = "당신만은 지킬께요", MaxLv = 1, 
+[SKID.WE_MALE] = {"WE_MALE"; SkillName = "당신만은 지킬게요", MaxLv = 1, 
 SpAmount = {1}
 , bSeperateLv = false, 
 AttackRange = {9}
@@ -8802,7 +8802,7 @@ _NeedSkillList = {
 }
 }
 , 
-[SKID.WE_FEMALE] = {"WE_FEMALE"; SkillName = "당신을 위해서 희생할께요", MaxLv = 1, 
+[SKID.WE_FEMALE] = {"WE_FEMALE"; SkillName = "당신을 위해서 희생할게요", MaxLv = 1, 
 SpAmount = {1}
 , bSeperateLv = false, 
 AttackRange = {9}
@@ -9239,7 +9239,7 @@ _NeedSkillList = {
 }
 , 
 [SKID.LK_CONCENTRATION] = {"LK_CONCENTRATION"; SkillName = "컨센트레이션", MaxLv = 5, 
-SpAmount = {14, 18, 22, 26, 30}
+SpAmount = {20, 20, 20, 20, 20}
 , bSeperateLv = true, 
 AttackRange = {1, 1, 1, 1, 1}
 , 

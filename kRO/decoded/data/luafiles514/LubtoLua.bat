@@ -65,7 +65,6 @@ luadec.exe ".\lua files\datainfo\TitleTable.lub" > ".\decoded\lua files\datainfo
 luadec.exe ".\lua files\datainfo\WeaponTable.lub" > ".\decoded\lua files\datainfo\WeaponTable.lub"
 luadec.exe ".\lua files\datainfo\WeaponTable_F.lub" > ".\decoded\lua files\datainfo\WeaponTable_F.lub"
 
-luadec.exe ".\lua files\debugui\_debugwndinfo.lub" > ".\decoded\lua files\debugui\_debugwndinfo.lub"
 luadec.exe ".\lua files\debugui\debuginginterfacedata.lub" > ".\decoded\lua files\debugui\debuginginterfacedata.lub"
 luadec.exe ".\lua files\debugui\debuginginterfaceinit.lub" > ".\decoded\lua files\debugui\debuginginterfaceinit.lub"
 luadec.exe ".\lua files\debugui\exeptionitemname.lub" > ".\decoded\lua files\debugui\exeptionitemname.lub"

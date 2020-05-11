@@ -5,6 +5,10 @@
 -- function num : 0
 TB_Layer_Priority = {Default_Mid = 100, Default_Top = 200, Default_Bottom = 300, 
 Items_List = {
+[ACCESSORY_IDs.ACCESSORY_PocketWatch_Hair_Orna] = {Default = 301, 
+Direction = {}
+}
+, 
 [ACCESSORY_IDs.ACCESSORY_C_Exotic_Bob_L_LB] = {Default = 143, 
 Direction = {}
 }

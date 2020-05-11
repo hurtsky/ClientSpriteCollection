@@ -5,6 +5,82 @@
 -- function num : 0
 tblLapineUpgradeBox = {
 targets = {
+Great_Hero_Bravery = {ItemID = 100412, NeedRefineMin = 0, NeedRefineMax = 20, NeedOptionNumMin = 0, NotSocketEnchantItem = true, 
+TargetItems = {
+{"Up_Oriental_Sword", 600009}
+, 
+{"Up_Dragonic_Slayer", 21058}
+, 
+{"Up_Shiver_Katar_K", 610008}
+, 
+{"Up_Blade_Katar", 610009}
+, 
+{"Up_Sword_Of_Bluefire", 500013}
+, 
+{"Up_Slate_Sword", 500014}
+, 
+{"Up_Narcis_Bow", 700013}
+, 
+{"Up_Trumpet_Shell_K", 570009}
+, 
+{"Up_Barb_Wire_K", 580009}
+, 
+{"Up_Avenger", 620004}
+, 
+{"Up_Magic_Sword", 510019}
+, 
+{"Up_Fatalist", 510020}
+, 
+{"Up_Meteor_Striker", 590011}
+, 
+{"Up_Royal_Bow_K", 700018}
+, 
+{"Up_Scalet_Dragon_L_Bow", 700019}
+, 
+{"Up_Shadow_Staff_K", 550012}
+, 
+{"Up_Freezing_Rod", 550013}
+}
+, NeedSource_String = "개방된 영웅의 무기"}
+, 
+Great_Hero_Wisdom = {ItemID = 100413, NeedRefineMin = 0, NeedRefineMax = 20, NeedOptionNumMin = 0, NotSocketEnchantItem = true, 
+TargetItems = {
+{"Up_Oriental_Sword", 600009}
+, 
+{"Up_Dragonic_Slayer", 21058}
+, 
+{"Up_Shiver_Katar_K", 610008}
+, 
+{"Up_Blade_Katar", 610009}
+, 
+{"Up_Sword_Of_Bluefire", 500013}
+, 
+{"Up_Slate_Sword", 500014}
+, 
+{"Up_Narcis_Bow", 700013}
+, 
+{"Up_Trumpet_Shell_K", 570009}
+, 
+{"Up_Barb_Wire_K", 580009}
+, 
+{"Up_Avenger", 620004}
+, 
+{"Up_Magic_Sword", 510019}
+, 
+{"Up_Fatalist", 510020}
+, 
+{"Up_Meteor_Striker", 590011}
+, 
+{"Up_Royal_Bow_K", 700018}
+, 
+{"Up_Scalet_Dragon_L_Bow", 700019}
+, 
+{"Up_Shadow_Staff_K", 550012}
+, 
+{"Up_Freezing_Rod", 550013}
+}
+, NeedSource_String = "개방된 영웅의 무기"}
+, 
 Auto_Armor_Refine_Cube = {ItemID = 100354, NeedRefineMin = 0, NeedRefineMax = 10, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
 TargetItems = {
 {"Auto_Armor_A", 450127}
@@ -1434,6 +1510,14 @@ TargetItems = {
 {"Up_Fatalist", 510020}
 , 
 {"Up_Meteor_Striker", 590011}
+, 
+{"Up_Royal_Bow_K", 700018}
+, 
+{"Up_Scalet_Dragon_L_Bow", 700019}
+, 
+{"Up_Shadow_Staff_K", 550012}
+, 
+{"Up_Freezing_Rod", 550013}
 }
 , NeedSource_String = "영웅의 무기"}
 , 
@@ -1536,6 +1620,14 @@ TargetItems = {
 {"Up_Fatalist", 510020}
 , 
 {"Up_Meteor_Striker", 590011}
+, 
+{"Up_Royal_Bow_K", 700018}
+, 
+{"Up_Scalet_Dragon_L_Bow", 700019}
+, 
+{"Up_Shadow_Staff_K", 550012}
+, 
+{"Up_Freezing_Rod", 550013}
 }
 , NeedSource_String = "영웅의 무기"}
 , 

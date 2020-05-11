@@ -5,6 +5,168 @@
 -- function num : 0
 tblLapineUpgradeBox = {
 targets = {
+Circlet_Refine_Cube = {ItemID = 100436, NeedRefineMin = 0, NeedRefineMax = 10, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"S_Circlet_Of_Time_RK", 19474}
+, 
+{"S_Circlet_Of_Time_LG", 19475}
+, 
+{"S_Circlet_Of_Time_NC", 19476}
+, 
+{"S_Circlet_Of_Time_GN", 19477}
+, 
+{"S_Circlet_Of_Time_GC", 19478}
+, 
+{"S_Circlet_Of_Time_SC", 19479}
+, 
+{"S_Circlet_Of_Time_AB", 19480}
+, 
+{"S_Circlet_Of_Time_SR", 19481}
+, 
+{"S_Circlet_Of_Time_WL", 19482}
+, 
+{"S_Circlet_Of_Time_SO", 19483}
+, 
+{"S_Circlet_Of_Time_RA", 19484}
+, 
+{"S_Circlet_Of_Time_WM", 19485}
+, 
+{"S_Circlet_Of_Time_SJ", 19486}
+, 
+{"S_Circlet_Of_Time_SP", 19487}
+, 
+{"S_Circlet_Of_Time_RL", 19488}
+, 
+{"S_Circlet_Of_Time_OB", 19489}
+, 
+{"S_Circlet_Of_Time_KG", 19490}
+, 
+{"S_Circlet_Of_Time_NV", 19491}
+, 
+{"S_Circlet_Of_Time_SU", 19492}
+}
+, NeedSource_String = "시간의 서클릿"}
+, 
+Great_Hero_Bravery = {ItemID = 100412, NeedRefineMin = 0, NeedRefineMax = 20, NeedOptionNumMin = 0, NotSocketEnchantItem = true, 
+TargetItems = {
+{"Up_Oriental_Sword", 600009}
+, 
+{"Up_Dragonic_Slayer", 21058}
+, 
+{"Up_Shiver_Katar_K", 610008}
+, 
+{"Up_Blade_Katar", 610009}
+, 
+{"Up_Sword_Of_Bluefire", 500013}
+, 
+{"Up_Slate_Sword", 500014}
+, 
+{"Up_Narcis_Bow", 700013}
+, 
+{"Up_Trumpet_Shell_K", 570009}
+, 
+{"Up_Barb_Wire_K", 580009}
+, 
+{"Up_Avenger", 620004}
+, 
+{"Up_Magic_Sword", 510019}
+, 
+{"Up_Fatalist", 510020}
+, 
+{"Up_Meteor_Striker", 590011}
+, 
+{"Up_Royal_Bow_K", 700018}
+, 
+{"Up_Scalet_Dragon_L_Bow", 700019}
+, 
+{"Up_Shadow_Staff_K", 550012}
+, 
+{"Up_Freezing_Rod", 550013}
+, 
+{"Up_Iron_Nail_K", 560008}
+, 
+{"Up_Ray_Knuckle", 560009}
+, 
+{"Up_Undine_Spear_K", 530006}
+, 
+{"Up_Light_Blade", 500017}
+, 
+{"Up_Iron_Staff", 640011}
+, 
+{"Up_Blue_Crystal_Staff", 640012}
+, 
+{"Up_Demon_Hunting_Bible", 540011}
+, 
+{"Up_Saint_Hall", 590012}
+, 
+{"Up_MeawFoxtail", 550014}
+, 
+{"Up_Fog_Dew_Sword", 510022}
+, 
+{"Up_Humma_Clear", 650004}
+}
+, NeedSource_String = "개방된 영웅의 무기"}
+, 
+Great_Hero_Wisdom = {ItemID = 100413, NeedRefineMin = 0, NeedRefineMax = 20, NeedOptionNumMin = 0, NotSocketEnchantItem = true, 
+TargetItems = {
+{"Up_Oriental_Sword", 600009}
+, 
+{"Up_Dragonic_Slayer", 21058}
+, 
+{"Up_Shiver_Katar_K", 610008}
+, 
+{"Up_Blade_Katar", 610009}
+, 
+{"Up_Sword_Of_Bluefire", 500013}
+, 
+{"Up_Slate_Sword", 500014}
+, 
+{"Up_Narcis_Bow", 700013}
+, 
+{"Up_Trumpet_Shell_K", 570009}
+, 
+{"Up_Barb_Wire_K", 580009}
+, 
+{"Up_Avenger", 620004}
+, 
+{"Up_Magic_Sword", 510019}
+, 
+{"Up_Fatalist", 510020}
+, 
+{"Up_Meteor_Striker", 590011}
+, 
+{"Up_Royal_Bow_K", 700018}
+, 
+{"Up_Scalet_Dragon_L_Bow", 700019}
+, 
+{"Up_Shadow_Staff_K", 550012}
+, 
+{"Up_Freezing_Rod", 550013}
+, 
+{"Up_Iron_Nail_K", 560008}
+, 
+{"Up_Ray_Knuckle", 560009}
+, 
+{"Up_Undine_Spear_K", 530006}
+, 
+{"Up_Light_Blade", 500017}
+, 
+{"Up_Iron_Staff", 640011}
+, 
+{"Up_Blue_Crystal_Staff", 640012}
+, 
+{"Up_Demon_Hunting_Bible", 540011}
+, 
+{"Up_Saint_Hall", 590012}
+, 
+{"Up_MeawFoxtail", 550014}
+, 
+{"Up_Fog_Dew_Sword", 510022}
+, 
+{"Up_Humma_Clear", 650004}
+}
+, NeedSource_String = "개방된 영웅의 무기"}
+, 
 Auto_Armor_Refine_Cube = {ItemID = 100354, NeedRefineMin = 0, NeedRefineMax = 10, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
 TargetItems = {
 {"Auto_Armor_A", 450127}
@@ -1040,6 +1202,48 @@ TargetItems = {
 {"S_Genesis_Pendant", 24582}
 , 
 {"S_Genesis_Earing", 24583}
+, 
+{"S_Tail_Dragon_Weapon", 24601}
+, 
+{"S_Tail_Dragon_Shield", 24602}
+, 
+{"S_Tail_Dragon_Armor", 24603}
+, 
+{"S_Flare_Dance_Earing", 24604}
+, 
+{"S_Flare_Dance_Pendant", 24605}
+, 
+{"S_Flare_Dance_Shoes", 24606}
+, 
+{"S_God_Hammer_Weapon", 24607}
+, 
+{"S_God_Hammer_Shield", 24608}
+, 
+{"S_God_Hammer_Armor", 24609}
+, 
+{"S_Shatter_Buster_Earing", 24610}
+, 
+{"S_Shatter_B_Pendant", 24611}
+, 
+{"S_Shatter_Buster_Shoes", 24612}
+, 
+{"S_Trip_Weapon", 24613}
+, 
+{"S_Trip_Shield", 24614}
+, 
+{"S_Trip_Armor", 24615}
+, 
+{"S_Super_Magic_Shield", 24616}
+, 
+{"S_Super_Magic_Armor", 24617}
+, 
+{"S_Super_Magic_Shoes", 24618}
+, 
+{"S_Super_Power_Weapon", 24619}
+, 
+{"S_Super_Power_Pendant", 24620}
+, 
+{"S_Super_Power_Earing", 24621}
 }
 , NeedSource_String = "스킬 쉐도우"}
 , 
@@ -1332,6 +1536,48 @@ TargetItems = {
 {"S_Genesis_Pendant", 24582}
 , 
 {"S_Genesis_Earing", 24583}
+, 
+{"S_Tail_Dragon_Weapon", 24601}
+, 
+{"S_Tail_Dragon_Shield", 24602}
+, 
+{"S_Tail_Dragon_Armor", 24603}
+, 
+{"S_Flare_Dance_Earing", 24604}
+, 
+{"S_Flare_Dance_Pendant", 24605}
+, 
+{"S_Flare_Dance_Shoes", 24606}
+, 
+{"S_God_Hammer_Weapon", 24607}
+, 
+{"S_God_Hammer_Shield", 24608}
+, 
+{"S_God_Hammer_Armor", 24609}
+, 
+{"S_Shatter_Buster_Earing", 24610}
+, 
+{"S_Shatter_B_Pendant", 24611}
+, 
+{"S_Shatter_Buster_Shoes", 24612}
+, 
+{"S_Trip_Weapon", 24613}
+, 
+{"S_Trip_Shield", 24614}
+, 
+{"S_Trip_Armor", 24615}
+, 
+{"S_Super_Magic_Shield", 24616}
+, 
+{"S_Super_Magic_Armor", 24617}
+, 
+{"S_Super_Magic_Shoes", 24618}
+, 
+{"S_Super_Power_Weapon", 24619}
+, 
+{"S_Super_Power_Pendant", 24620}
+, 
+{"S_Super_Power_Earing", 24621}
 }
 , NeedSource_String = "스킬 쉐도우"}
 , 
@@ -1562,6 +1808,36 @@ TargetItems = {
 {"Up_Fatalist", 510020}
 , 
 {"Up_Meteor_Striker", 590011}
+, 
+{"Up_Royal_Bow_K", 700018}
+, 
+{"Up_Scalet_Dragon_L_Bow", 700019}
+, 
+{"Up_Shadow_Staff_K", 550012}
+, 
+{"Up_Freezing_Rod", 550013}
+, 
+{"Up_Iron_Nail_K", 560008}
+, 
+{"Up_Ray_Knuckle", 560009}
+, 
+{"Up_Undine_Spear_K", 530006}
+, 
+{"Up_Light_Blade", 500017}
+, 
+{"Up_Iron_Staff", 640011}
+, 
+{"Up_Blue_Crystal_Staff", 640012}
+, 
+{"Up_Demon_Hunting_Bible", 540011}
+, 
+{"Up_Saint_Hall", 590012}
+, 
+{"Up_MeawFoxtail", 550014}
+, 
+{"Up_Fog_Dew_Sword", 510022}
+, 
+{"Up_Humma_Clear", 650004}
 }
 , NeedSource_String = "영웅의 무기"}
 , 
@@ -1664,6 +1940,36 @@ TargetItems = {
 {"Up_Fatalist", 510020}
 , 
 {"Up_Meteor_Striker", 590011}
+, 
+{"Up_Royal_Bow_K", 700018}
+, 
+{"Up_Scalet_Dragon_L_Bow", 700019}
+, 
+{"Up_Shadow_Staff_K", 550012}
+, 
+{"Up_Freezing_Rod", 550013}
+, 
+{"Up_Iron_Nail_K", 560008}
+, 
+{"Up_Ray_Knuckle", 560009}
+, 
+{"Up_Undine_Spear_K", 530006}
+, 
+{"Up_Light_Blade", 500017}
+, 
+{"Up_Iron_Staff", 640011}
+, 
+{"Up_Blue_Crystal_Staff", 640012}
+, 
+{"Up_Demon_Hunting_Bible", 540011}
+, 
+{"Up_Saint_Hall", 590012}
+, 
+{"Up_MeawFoxtail", 550014}
+, 
+{"Up_Fog_Dew_Sword", 510022}
+, 
+{"Up_Humma_Clear", 650004}
 }
 , NeedSource_String = "영웅의 무기"}
 , 
@@ -3212,6 +3518,48 @@ TargetItems = {
 {"S_Genesis_Pendant", 24582}
 , 
 {"S_Genesis_Earing", 24583}
+, 
+{"S_Tail_Dragon_Weapon", 24601}
+, 
+{"S_Tail_Dragon_Shield", 24602}
+, 
+{"S_Tail_Dragon_Armor", 24603}
+, 
+{"S_Flare_Dance_Earing", 24604}
+, 
+{"S_Flare_Dance_Pendant", 24605}
+, 
+{"S_Flare_Dance_Shoes", 24606}
+, 
+{"S_God_Hammer_Weapon", 24607}
+, 
+{"S_God_Hammer_Shield", 24608}
+, 
+{"S_God_Hammer_Armor", 24609}
+, 
+{"S_Shatter_Buster_Earing", 24610}
+, 
+{"S_Shatter_B_Pendant", 24611}
+, 
+{"S_Shatter_Buster_Shoes", 24612}
+, 
+{"S_Trip_Weapon", 24613}
+, 
+{"S_Trip_Shield", 24614}
+, 
+{"S_Trip_Armor", 24615}
+, 
+{"S_Super_Magic_Shield", 24616}
+, 
+{"S_Super_Magic_Armor", 24617}
+, 
+{"S_Super_Magic_Shoes", 24618}
+, 
+{"S_Super_Power_Weapon", 24619}
+, 
+{"S_Super_Power_Pendant", 24620}
+, 
+{"S_Super_Power_Earing", 24621}
 }
 , NeedSource_String = "쉐도우 아이템"}
 , 
@@ -4364,6 +4712,48 @@ TargetItems = {
 {"S_Genesis_Pendant", 24582}
 , 
 {"S_Genesis_Earing", 24583}
+, 
+{"S_Tail_Dragon_Weapon", 24601}
+, 
+{"S_Tail_Dragon_Shield", 24602}
+, 
+{"S_Tail_Dragon_Armor", 24603}
+, 
+{"S_Flare_Dance_Earing", 24604}
+, 
+{"S_Flare_Dance_Pendant", 24605}
+, 
+{"S_Flare_Dance_Shoes", 24606}
+, 
+{"S_God_Hammer_Weapon", 24607}
+, 
+{"S_God_Hammer_Shield", 24608}
+, 
+{"S_God_Hammer_Armor", 24609}
+, 
+{"S_Shatter_Buster_Earing", 24610}
+, 
+{"S_Shatter_B_Pendant", 24611}
+, 
+{"S_Shatter_Buster_Shoes", 24612}
+, 
+{"S_Trip_Weapon", 24613}
+, 
+{"S_Trip_Shield", 24614}
+, 
+{"S_Trip_Armor", 24615}
+, 
+{"S_Super_Magic_Shield", 24616}
+, 
+{"S_Super_Magic_Armor", 24617}
+, 
+{"S_Super_Magic_Shoes", 24618}
+, 
+{"S_Super_Power_Weapon", 24619}
+, 
+{"S_Super_Power_Pendant", 24620}
+, 
+{"S_Super_Power_Earing", 24621}
 }
 , NeedSource_String = "쉐도우 아이템"}
 , 
@@ -5336,6 +5726,48 @@ TargetItems = {
 {"S_Genesis_Pendant", 24582}
 , 
 {"S_Genesis_Earing", 24583}
+, 
+{"S_Tail_Dragon_Weapon", 24601}
+, 
+{"S_Tail_Dragon_Shield", 24602}
+, 
+{"S_Tail_Dragon_Armor", 24603}
+, 
+{"S_Flare_Dance_Earing", 24604}
+, 
+{"S_Flare_Dance_Pendant", 24605}
+, 
+{"S_Flare_Dance_Shoes", 24606}
+, 
+{"S_God_Hammer_Weapon", 24607}
+, 
+{"S_God_Hammer_Shield", 24608}
+, 
+{"S_God_Hammer_Armor", 24609}
+, 
+{"S_Shatter_Buster_Earing", 24610}
+, 
+{"S_Shatter_B_Pendant", 24611}
+, 
+{"S_Shatter_Buster_Shoes", 24612}
+, 
+{"S_Trip_Weapon", 24613}
+, 
+{"S_Trip_Shield", 24614}
+, 
+{"S_Trip_Armor", 24615}
+, 
+{"S_Super_Magic_Shield", 24616}
+, 
+{"S_Super_Magic_Armor", 24617}
+, 
+{"S_Super_Magic_Shoes", 24618}
+, 
+{"S_Super_Power_Weapon", 24619}
+, 
+{"S_Super_Power_Pendant", 24620}
+, 
+{"S_Super_Power_Earing", 24621}
 }
 , NeedSource_String = "+7 쉐도우 아이템"}
 , 
@@ -6714,6 +7146,286 @@ TargetItems = {
 {"E_Illusion_Leg_B", 470055}
 }
 , NeedSource_String = "일루시온(귀속) 방어구"}
+, 
+Frozen_Box_IL = {ItemID = 9785, NeedRefineMin = 4, NeedRefineMax = 9, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"풍마_난설_IL", 13337}
+, 
+{"연격의투갑_IL", 1846}
+, 
+{"캡_IL", 19223}
+, 
+{"생존의망토_IL", 20847}
+, 
+{"신의사자_IL", 28922}
+}
+, NeedSource_String = "일루전 오브 프로즌 장비"}
+, 
+Moonlight_Box_IL = {ItemID = 100391, NeedRefineMin = 4, NeedRefineMax = 9, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"요괴의창_IL", 26007}
+, 
+{"월광검_IL", 28725}
+, 
+{"롱메이스_IL", 16063}
+, 
+{"스태프오브오르도_IL", 26109}
+, 
+{"머플러_IL", 20838}
+, 
+{"슈즈_IL", 22133}
+, 
+{"간호모_IL", 19209}
+, 
+{"퓨엔테로브_IL", 15195}
+, 
+{"명사수의사과_IL", 19210}
+}
+, NeedSource_String = "일루전 오브 문라이트 장비"}
+, 
+S_Moonlight_Box_IL = {ItemID = 100392, NeedRefineMin = 4, NeedRefineMax = 11, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"요괴의창_IL", 26007}
+, 
+{"월광검_IL", 28725}
+, 
+{"롱메이스_IL", 16063}
+, 
+{"스태프오브오르도_IL", 26109}
+, 
+{"머플러_IL", 20838}
+, 
+{"슈즈_IL", 22133}
+, 
+{"간호모_IL", 19209}
+, 
+{"퓨엔테로브_IL", 15195}
+, 
+{"명사수의사과_IL", 19210}
+}
+, NeedSource_String = "일루전 오브 문라이트 장비"}
+, 
+Vampire_Box_IL = {ItemID = 100414, NeedRefineMin = 4, NeedRefineMax = 9, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"위자드리스태프_IL", 2039}
+, 
+{"등뒤를베는자_IL", 28022}
+, 
+{"발리스타_IL", 18149}
+, 
+{"묵시록_IL", 28612}
+, 
+{"언데드의카타르_IL", 28023}
+, 
+{"옛영주의망토_IL", 20840}
+}
+, NeedSource_String = "일루전 오브 뱀파이어 장비"}
+, 
+S_Vampire_Box_IL = {ItemID = 100415, NeedRefineMin = 4, NeedRefineMax = 11, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"위자드리스태프_IL", 2039}
+, 
+{"등뒤를베는자_IL", 28022}
+, 
+{"발리스타_IL", 18149}
+, 
+{"묵시록_IL", 28612}
+, 
+{"언데드의카타르_IL", 28023}
+, 
+{"옛영주의망토_IL", 20840}
+}
+, NeedSource_String = "일루전 오브 뱀파이어 장비"}
+, 
+S_Frozen_Box_IL = {ItemID = 100416, NeedRefineMin = 4, NeedRefineMax = 11, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"풍마_난설_IL", 13337}
+, 
+{"연격의투갑_IL", 1846}
+, 
+{"캡_IL", 19223}
+, 
+{"생존의망토_IL", 20847}
+, 
+{"신의사자_IL", 28922}
+}
+, NeedSource_String = "일루전 오브 프로즌 장비"}
+, 
+Turtle_Is_Box_IL = {ItemID = 100417, NeedRefineMin = 4, NeedRefineMax = 9, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"풍마_편익_IL", 13338}
+, 
+{"워액스_IL", 1326}
+, 
+{"무형검_IL", 13469}
+, 
+{"아이언드라이버_IL", 16065}
+, 
+{"폴액스_IL", 32005}
+, 
+{"장식용꽃_IL", 19247}
+}
+, NeedSource_String = "일루전 오브 터틀아일랜드 장비"}
+, 
+S_Turtle_Is_Box_IL = {ItemID = 100418, NeedRefineMin = 4, NeedRefineMax = 11, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"풍마_편익_IL", 13338}
+, 
+{"워액스_IL", 1326}
+, 
+{"무형검_IL", 13469}
+, 
+{"아이언드라이버_IL", 16065}
+, 
+{"폴액스_IL", 32005}
+, 
+{"장식용꽃_IL", 19247}
+}
+, NeedSource_String = "일루전 오브 터틀아일랜드 장비"}
+, 
+Teddy_Bear_Box_IL = {ItemID = 100419, NeedRefineMin = 4, NeedRefineMax = 9, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"Survival_Staff_IL", 2051}
+, 
+{"Gate_KeeperDD_IL", 28244}
+, 
+{"Counter_Dagger_IL", 28745}
+, 
+{"Headband_Of_Power_IL", 19344}
+, 
+{"Boots_IL", 22190}
+}
+, NeedSource_String = "일루전 오브 테디베어 장비"}
+, 
+S_Teddy_Bear_Box_IL = {ItemID = 100420, NeedRefineMin = 4, NeedRefineMax = 11, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"Survival_Staff_IL", 2051}
+, 
+{"Gate_KeeperDD_IL", 28244}
+, 
+{"Counter_Dagger_IL", 28745}
+, 
+{"Headband_Of_Power_IL", 19344}
+, 
+{"Boots_IL", 22190}
+}
+, NeedSource_String = "일루전 오브 테디베어 장비"}
+, 
+Luanda_Box_IL = {ItemID = 100421, NeedRefineMin = 4, NeedRefineMax = 9, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"Hunter_Bow_IL", 18174}
+, 
+{"Tablet_IL", 28626}
+, 
+{"Goibne_Armor_IL", 15348}
+, 
+{"Goibne_Helmet_IL", 19366}
+, 
+{"Goibne_Shoulder_IL", 20923}
+, 
+{"Goibne_Boots_IL", 22192}
+}
+, NeedSource_String = "일루전 오브 루안다 장비"}
+, 
+S_Luanda_Box_IL = {ItemID = 100422, NeedRefineMin = 4, NeedRefineMax = 11, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"Hunter_Bow_IL", 18174}
+, 
+{"Tablet_IL", 28626}
+, 
+{"Goibne_Armor_IL", 15348}
+, 
+{"Goibne_Helmet_IL", 19366}
+, 
+{"Goibne_Shoulder_IL", 20923}
+, 
+{"Goibne_Boots_IL", 22192}
+}
+, NeedSource_String = "일루전 오브 루안다 장비"}
+, 
+Labyrinth_Box_IL = {ItemID = 100423, NeedRefineMin = 4, NeedRefineMax = 9, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"Taegoolyeon_IL", 21050}
+, 
+{"Butcher_IL", 28254}
+, 
+{"Gold_Lux_IL", 32301}
+, 
+{"Bazerald_IL", 28762}
+, 
+{"Morpheus_Hood_IL", 19428}
+, 
+{"Morpheus_Shawl_IL", 20948}
+}
+, NeedSource_String = "일루전 오브 라비린스 장비"}
+, 
+S_Teddy_Labyrinth_IL = {ItemID = 100424, NeedRefineMin = 4, NeedRefineMax = 11, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"Taegoolyeon_IL", 21050}
+, 
+{"Butcher_IL", 28254}
+, 
+{"Gold_Lux_IL", 32301}
+, 
+{"Bazerald_IL", 28762}
+, 
+{"Morpheus_Hood_IL", 19428}
+, 
+{"Morpheus_Shawl_IL", 20948}
+}
+, NeedSource_String = "일루전 오브 라비린스 장비"}
+, 
+Underwater_Box_IL = {ItemID = 100425, NeedRefineMin = 4, NeedRefineMax = 9, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"Death_Guidance_IL", 600011}
+, 
+{"KatarOfCold_Icicle_IL", 610012}
+, 
+{"Brionac_IL", 630006}
+, 
+{"Zephyrus_IL", 630007}
+, 
+{"Electronic_Guitar_IL", 570008}
+, 
+{"Electric_Eel_IL", 580008}
+, 
+{"Saint_Robe_IL", 450144}
+, 
+{"Water_Sprits_Armor_IL", 450145}
+, 
+{"Chain_Mail_IL", 450146}
+, 
+{"Morrigane_Helm_IL", 400053}
+, 
+{"Morrigane_Manyeau_IL", 480054}
+}
+, NeedSource_String = "일루전 오브 언더워터 장비"}
+, 
+S_Underwater_Box_IL = {ItemID = 100426, NeedRefineMin = 4, NeedRefineMax = 11, NeedOptionNumMin = 0, NotSocketEnchantItem = false, 
+TargetItems = {
+{"Death_Guidance_IL", 600011}
+, 
+{"KatarOfCold_Icicle_IL", 610012}
+, 
+{"Brionac_IL", 630006}
+, 
+{"Zephyrus_IL", 630007}
+, 
+{"Electronic_Guitar_IL", 570008}
+, 
+{"Electric_Eel_IL", 580008}
+, 
+{"Saint_Robe_IL", 450144}
+, 
+{"Water_Sprits_Armor_IL", 450145}
+, 
+{"Chain_Mail_IL", 450146}
+, 
+{"Morrigane_Helm_IL", 400053}
+, 
+{"Morrigane_Manyeau_IL", 480054}
+}
+, NeedSource_String = "일루전 오브 언더워터 장비"}
 }
 , serverMain = function()
   -- function num : 0_0
