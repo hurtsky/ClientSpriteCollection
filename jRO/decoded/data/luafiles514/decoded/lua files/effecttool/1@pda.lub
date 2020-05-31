@@ -1,0 +1,3951 @@
+-- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
+-- Command line: .\lua files\effecttool\1@pda.lub 
+
+-- params : ...
+-- function num : 0
+_1pda_effect_version = 2
+_1pda_emitterInfo = {
+[0] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {45, 3, -305}
+, 
+radius = {0, 0, 0}
+, 
+color = {100, 50, 60, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\128-4.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[1] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {44.8, 3, -335.2}
+, 
+radius = {0, 0, 0}
+, 
+color = {100, 50, 60, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\128-4.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[2] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {74.9, 3, -334.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {100, 50, 60, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\128-4.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[3] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {75, 3, -305.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {100, 50, 60, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\128-4.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[4] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {60.7, 1.4, -319.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {80, 50, 80, 50}
+, 
+rate = {5, 5}
+, 
+size = {5, 5}
+, 
+life = {2, 2}
+, texture = "effect\\fire_blast.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[5] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-338.4, -25, 100.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {100, 60, 120, 75}
+, 
+rate = {9, 9}
+, 
+size = {9, 9}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[6] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-377.9, -21, 137.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {100, 40, 30, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[7] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-377.7, -20, 62.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {100, 40, 30, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[8] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-301.9, -21, 62.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {100, 43, 30, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[9] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-302, -21, 137.7}
+, 
+radius = {0, 0, 0}
+, 
+color = {100, 40, 30, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[10] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-273, -25, 167.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {120, 10, 50, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[11] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-406.8, -25, 167.4}
+, 
+radius = {0, 0, 0}
+, 
+color = {120, 10, 50, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[12] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-406.8, -25, 33.4}
+, 
+radius = {0, 0, 0}
+, 
+color = {120, 10, 50, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[13] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-272.8, -25, 33.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {120, 10, 50, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[14] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {169.4, -10, -299.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 50, 40, 75}
+, 
+rate = {5, 5}
+, 
+size = {5, 5}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[15] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {168.5, -9, -252.2}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 50, 40, 75}
+, 
+rate = {5, 5}
+, 
+size = {5, 5}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[16] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {169, -10, -339.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 50, 40, 75}
+, 
+rate = {5, 5}
+, 
+size = {5, 5}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[17] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {128.7, -11.1, -427.4}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 50, 40, 75}
+, 
+rate = {5, 5}
+, 
+size = {5, 5}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[18] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {80.3, -12, -428}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 50, 40, 75}
+, 
+rate = {5, 5}
+, 
+size = {5, 5}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[19] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {39.9, -12, -428.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 50, 40, 75}
+, 
+rate = {5, 5}
+, 
+size = {5, 5}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[20] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-10, -11, -427.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 50, 40, 75}
+, 
+rate = {5, 5}
+, 
+size = {5, 5}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[21] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-48.4, -12, -389.5}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 50, 40, 75}
+, 
+rate = {5, 5}
+, 
+size = {5, 5}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[22] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {168.8, -13, -389.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 50, 40, 75}
+, 
+rate = {5, 5}
+, 
+size = {5, 5}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[23] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-47.1, -12, -338.7}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 50, 40, 75}
+, 
+rate = {5, 5}
+, 
+size = {5, 5}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[24] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-48.6, -13, -300.4}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 50, 40, 75}
+, 
+rate = {5, 5}
+, 
+size = {5, 5}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[25] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-48, -12, -250.4}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 50, 40, 75}
+, 
+rate = {5, 5}
+, 
+size = {5, 5}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[26] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-9.7, -13, -212.2}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 50, 40, 75}
+, 
+rate = {5, 5}
+, 
+size = {5, 5}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[27] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {81, -12, -212.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 50, 40, 75}
+, 
+rate = {5, 5}
+, 
+size = {5, 5}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[28] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {128.4, -11, -212.5}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 50, 40, 75}
+, 
+rate = {5, 5}
+, 
+size = {5, 5}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[29] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {39.4, -12, -213.5}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 50, 40, 75}
+, 
+rate = {5, 5}
+, 
+size = {5, 5}
+, 
+life = {2, 2}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[30] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {142.1, -37, -224.4}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[31] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {132, -29, -224.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[32] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {158.1, -14, -225}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[33] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {330.9, -16, 388.4}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[34] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {329.8, -16, 419.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[35] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {329.7, -38.2, 404.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[36] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-56.7, -39, 405.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[37] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-56, -17, 388.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[38] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-56.4, -15.5, 420}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[39] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {99.2, -56.2, 130.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[40] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {100.7, -33, 115.5}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[41] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {100.1, -33, 144.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[42] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {313.4, -39, 30.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[43] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {312.6, -16, 15.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[44] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {313, -15, 45.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[45] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {155.3, -36.1, -401.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[46] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {154.9, -14, -387.4}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[47] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {155.1, -14, -416.5}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[48] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-254.3, -31, 144.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[49] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-253.8, -11, 131.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[50] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-255, -12, 159.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[51] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-355.1, -21, 85.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {80, 60, 120, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\thunder_pang.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[52] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-355, -20.5, 115}
+, 
+radius = {0, 0, 0}
+, 
+color = {80, 60, 120, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\thunder_pang.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[53] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-325.1, -20, 115.2}
+, 
+radius = {0, 0, 0}
+, 
+color = {80, 60, 120, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\thunder_pang.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[54] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-324.9, -21, 85}
+, 
+radius = {0, 0, 0}
+, 
+color = {80, 60, 120, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\thunder_pang.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[55] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-419.5, -8, 180.2}
+, 
+radius = {0, 0, 0}
+, 
+color = {80, 60, 120, 10}
+, 
+rate = {12, 12}
+, 
+size = {12, 12}
+, 
+life = {2, 2}
+, texture = "effect\\freeze.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[56] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-420.1, -8, 20.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {80, 60, 120, 10}
+, 
+rate = {12, 12}
+, 
+size = {12, 12}
+, 
+life = {2, 2}
+, texture = "effect\\freeze.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[57] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-260.7, -7, 19.7}
+, 
+radius = {0, 0, 0}
+, 
+color = {80, 60, 120, 10}
+, 
+rate = {12, 12}
+, 
+size = {12, 12}
+, 
+life = {2, 2}
+, texture = "effect\\freeze.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[58] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-260.2, -12, 179.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {80, 60, 120, 10}
+, 
+rate = {12, 12}
+, 
+size = {12, 12}
+, 
+life = {2, 2}
+, texture = "effect\\freeze.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[59] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-337.5, -26.8, 101.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {80, 60, 120, 10}
+, 
+rate = {12, 12}
+, 
+size = {12, 12}
+, 
+life = {2, 2}
+, texture = "effect\\freeze.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[60] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-394.3, -5, 155}
+, 
+radius = {0, 0, 0}
+, 
+color = {160, 130, 100, 200}
+, 
+rate = {1, 80}
+, 
+size = {10, 30}
+, 
+life = {2, 10}
+, texture = "effect\\13 copy.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {3}
+, 
+zenable = {1}
+}
+, 
+[61] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-285.3, -7, 154.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {160, 130, 100, 200}
+, 
+rate = {1, 80}
+, 
+size = {10, 30}
+, 
+life = {2, 10}
+, texture = "effect\\13 copy.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {3}
+, 
+zenable = {1}
+}
+, 
+[62] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-395, -7, 44.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {160, 130, 100, 200}
+, 
+rate = {1, 80}
+, 
+size = {10, 30}
+, 
+life = {2, 10}
+, texture = "effect\\13 copy.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {3}
+, 
+zenable = {1}
+}
+, 
+[63] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-285.6, -6, 45.5}
+, 
+radius = {0, 0, 0}
+, 
+color = {160, 130, 100, 200}
+, 
+rate = {1, 80}
+, 
+size = {10, 30}
+, 
+life = {2, 10}
+, texture = "effect\\13 copy.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {3}
+, 
+zenable = {1}
+}
+, 
+[64] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {370.9, -39, -419.5}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[65] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {371.4, -16, -434.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[66] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {371, -16, -405.4}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[67] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {395.3, -16, -240.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[68] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {424.5, -15, -241.4}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[69] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {409.8, -39, -240.5}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[70] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {160.5, -7, 70.2}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {5}
+, 
+zenable = {1}
+}
+, 
+[71] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {130.1, -7, 70.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[72] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {130, -11, 79.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[73] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {160.6, -10.5, 79.7}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[74] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {160.5, -15, 90}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[75] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {130.2, -14, 90.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[76] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {130.1, -18.5, 99}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[77] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {160.6, -19, 98.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[78] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {162.7, -28, 102.4}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[79] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {182.2, -28, 102.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[80] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {202.1, -28, 102.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[81] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {221.9, -28, 102.7}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[82] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {242, -28, 102.7}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[83] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {257.5, -28, 103}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[84] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {292.4, -28, 102.7}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[85] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {307.6, -28, 103.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[86] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {289.6, -15, 89.7}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[87] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {258.7, -15, 89.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[88] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {289.9, -11, 79.5}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[89] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {260.2, -11, 79.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[90] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {289.6, -8, 69.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[91] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {260.3, -8, 69.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[92] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {127.8, -27, 103.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[93] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {112.8, -27, 102.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[94] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {313.9, -30, 39.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[95] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {313.3, -30.5, 20.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[96] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {99.3, -48.5, 138.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[97] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {100.9, -47, 120.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[98] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {331.7, -30, 395.4}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[99] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {331.6, -30, 414.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[100] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-56, -31.5, 417.2}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[101] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-56.4, -31, 395.7}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[102] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {400.8, -31, -241.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[103] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {419.5, -30, -241.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[104] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {370.1, -30, -409.7}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[105] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {370.5, -30, -428.4}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[106] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {125.9, -16, -225.7}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[107] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {152.9, -28, -224.7}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[108] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {153.9, -27.1, -393}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[109] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {154.7, -28, -411.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[110] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-254.6, -22, 136}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[111] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-254.7, -22, 154.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {4, 4}
+, 
+size = {4, 4}
+, 
+life = {2, 2}
+, texture = "effect\\a-2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[112] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {259.6, -19, 98.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[113] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {289.4, -19, 98.2}
+, 
+radius = {0, 0, 0}
+, 
+color = {60, 40, 70, 75}
+, 
+rate = {3, 3}
+, 
+size = {3, 3}
+, 
+life = {2, 2}
+, texture = "effect\\glow01.bmp", 
+speed = {0}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+}
+_1pda_magicfloorInfo = {
+[0] = {
+Speed = {0}
+, 
+Size = {18}
+, 
+Angle = {10}
+, 
+RiseAngle = {180}
+, 
+Alpha = {60}
+, 
+FullDisplayAngle = {0}
+, 
+pos = {-270.5, -7, 144.9}
+, 
+Height0 = {0}
+, 
+Height1 = {0}
+, 
+Height2 = {0}
+, 
+Height3 = {0}
+, 
+Height4 = {0}
+, 
+Height5 = {0}
+, 
+Height6 = {0}
+, 
+Height7 = {0}
+, 
+Height8 = {0}
+, 
+Height9 = {0}
+, 
+Height10 = {0}
+, 
+Height11 = {0}
+, 
+Height12 = {0}
+, 
+Height13 = {0}
+, 
+Height14 = {0}
+, 
+Height15 = {0}
+, 
+Height16 = {0}
+, 
+Height17 = {0}
+, 
+Height18 = {0}
+, 
+Height19 = {0}
+, 
+Height20 = {0}
+}
+, 
+[1] = {
+Speed = {0}
+, 
+Size = {18}
+, 
+Angle = {10}
+, 
+RiseAngle = {180}
+, 
+Alpha = {60}
+, 
+FullDisplayAngle = {0}
+, 
+pos = {122.5, -25.2, 130.1}
+, 
+Height0 = {0}
+, 
+Height1 = {0}
+, 
+Height2 = {0}
+, 
+Height3 = {0}
+, 
+Height4 = {0}
+, 
+Height5 = {0}
+, 
+Height6 = {0}
+, 
+Height7 = {0}
+, 
+Height8 = {0}
+, 
+Height9 = {0}
+, 
+Height10 = {0}
+, 
+Height11 = {0}
+, 
+Height12 = {0}
+, 
+Height13 = {0}
+, 
+Height14 = {0}
+, 
+Height15 = {0}
+, 
+Height16 = {0}
+, 
+Height17 = {0}
+, 
+Height18 = {0}
+, 
+Height19 = {0}
+, 
+Height20 = {0}
+}
+, 
+[2] = {
+Speed = {0}
+, 
+Size = {18}
+, 
+Angle = {10}
+, 
+RiseAngle = {180}
+, 
+Alpha = {60}
+, 
+FullDisplayAngle = {0}
+, 
+pos = {297, -9.5, 30.3}
+, 
+Height0 = {0}
+, 
+Height1 = {0}
+, 
+Height2 = {0}
+, 
+Height3 = {0}
+, 
+Height4 = {0}
+, 
+Height5 = {0}
+, 
+Height6 = {0}
+, 
+Height7 = {0}
+, 
+Height8 = {0}
+, 
+Height9 = {0}
+, 
+Height10 = {0}
+, 
+Height11 = {0}
+, 
+Height12 = {0}
+, 
+Height13 = {0}
+, 
+Height14 = {0}
+, 
+Height15 = {0}
+, 
+Height16 = {0}
+, 
+Height17 = {0}
+, 
+Height18 = {0}
+, 
+Height19 = {0}
+, 
+Height20 = {0}
+}
+, 
+[3] = {
+Speed = {0}
+, 
+Size = {18}
+, 
+Angle = {10}
+, 
+RiseAngle = {180}
+, 
+Alpha = {60}
+, 
+FullDisplayAngle = {0}
+, 
+pos = {319.8, -9.2, 405.1}
+, 
+Height0 = {0}
+, 
+Height1 = {0}
+, 
+Height2 = {0}
+, 
+Height3 = {0}
+, 
+Height4 = {0}
+, 
+Height5 = {0}
+, 
+Height6 = {0}
+, 
+Height7 = {0}
+, 
+Height8 = {0}
+, 
+Height9 = {0}
+, 
+Height10 = {0}
+, 
+Height11 = {0}
+, 
+Height12 = {0}
+, 
+Height13 = {0}
+, 
+Height14 = {0}
+, 
+Height15 = {0}
+, 
+Height16 = {0}
+, 
+Height17 = {0}
+, 
+Height18 = {0}
+, 
+Height19 = {0}
+, 
+Height20 = {0}
+}
+, 
+[4] = {
+Speed = {0}
+, 
+Size = {18}
+, 
+Angle = {10}
+, 
+RiseAngle = {180}
+, 
+Alpha = {60}
+, 
+FullDisplayAngle = {0}
+, 
+pos = {-39.4, -9.5, 405.3}
+, 
+Height0 = {0}
+, 
+Height1 = {0}
+, 
+Height2 = {0}
+, 
+Height3 = {0}
+, 
+Height4 = {0}
+, 
+Height5 = {0}
+, 
+Height6 = {0}
+, 
+Height7 = {0}
+, 
+Height8 = {0}
+, 
+Height9 = {0}
+, 
+Height10 = {0}
+, 
+Height11 = {0}
+, 
+Height12 = {0}
+, 
+Height13 = {0}
+, 
+Height14 = {0}
+, 
+Height15 = {0}
+, 
+Height16 = {0}
+, 
+Height17 = {0}
+, 
+Height18 = {0}
+, 
+Height19 = {0}
+, 
+Height20 = {0}
+}
+, 
+[5] = {
+Speed = {0}
+, 
+Size = {18}
+, 
+Angle = {10}
+, 
+RiseAngle = {180}
+, 
+Alpha = {60}
+, 
+FullDisplayAngle = {0}
+, 
+pos = {144.7, -13, -402}
+, 
+Height0 = {0}
+, 
+Height1 = {0}
+, 
+Height2 = {0}
+, 
+Height3 = {0}
+, 
+Height4 = {0}
+, 
+Height5 = {0}
+, 
+Height6 = {0}
+, 
+Height7 = {0}
+, 
+Height8 = {0}
+, 
+Height9 = {0}
+, 
+Height10 = {0}
+, 
+Height11 = {0}
+, 
+Height12 = {0}
+, 
+Height13 = {0}
+, 
+Height14 = {0}
+, 
+Height15 = {0}
+, 
+Height16 = {0}
+, 
+Height17 = {0}
+, 
+Height18 = {0}
+, 
+Height19 = {0}
+, 
+Height20 = {0}
+}
+, 
+[6] = {
+Speed = {0}
+, 
+Size = {18}
+, 
+Angle = {10}
+, 
+RiseAngle = {180}
+, 
+Alpha = {60}
+, 
+FullDisplayAngle = {0}
+, 
+pos = {142.1, -13, -235}
+, 
+Height0 = {0}
+, 
+Height1 = {0}
+, 
+Height2 = {0}
+, 
+Height3 = {0}
+, 
+Height4 = {0}
+, 
+Height5 = {0}
+, 
+Height6 = {0}
+, 
+Height7 = {0}
+, 
+Height8 = {0}
+, 
+Height9 = {0}
+, 
+Height10 = {0}
+, 
+Height11 = {0}
+, 
+Height12 = {0}
+, 
+Height13 = {0}
+, 
+Height14 = {0}
+, 
+Height15 = {0}
+, 
+Height16 = {0}
+, 
+Height17 = {0}
+, 
+Height18 = {0}
+, 
+Height19 = {0}
+, 
+Height20 = {0}
+}
+, 
+[7] = {
+Speed = {0}
+, 
+Size = {18}
+, 
+Angle = {10}
+, 
+RiseAngle = {180}
+, 
+Alpha = {60}
+, 
+FullDisplayAngle = {0}
+, 
+pos = {392.8, -9.3, -420}
+, 
+Height0 = {0}
+, 
+Height1 = {0}
+, 
+Height2 = {0}
+, 
+Height3 = {0}
+, 
+Height4 = {0}
+, 
+Height5 = {0}
+, 
+Height6 = {0}
+, 
+Height7 = {0}
+, 
+Height8 = {0}
+, 
+Height9 = {0}
+, 
+Height10 = {0}
+, 
+Height11 = {0}
+, 
+Height12 = {0}
+, 
+Height13 = {0}
+, 
+Height14 = {0}
+, 
+Height15 = {0}
+, 
+Height16 = {0}
+, 
+Height17 = {0}
+, 
+Height18 = {0}
+, 
+Height19 = {0}
+, 
+Height20 = {0}
+}
+, 
+[8] = {
+Speed = {0}
+, 
+Size = {18}
+, 
+Angle = {10}
+, 
+RiseAngle = {180}
+, 
+Alpha = {60}
+, 
+FullDisplayAngle = {0}
+, 
+pos = {409.9, -9.3, -262}
+, 
+Height0 = {0}
+, 
+Height1 = {0}
+, 
+Height2 = {0}
+, 
+Height3 = {0}
+, 
+Height4 = {0}
+, 
+Height5 = {0}
+, 
+Height6 = {0}
+, 
+Height7 = {0}
+, 
+Height8 = {0}
+, 
+Height9 = {0}
+, 
+Height10 = {0}
+, 
+Height11 = {0}
+, 
+Height12 = {0}
+, 
+Height13 = {0}
+, 
+Height14 = {0}
+, 
+Height15 = {0}
+, 
+Height16 = {0}
+, 
+Height17 = {0}
+, 
+Height18 = {0}
+, 
+Height19 = {0}
+, 
+Height20 = {0}
+}
+}
+

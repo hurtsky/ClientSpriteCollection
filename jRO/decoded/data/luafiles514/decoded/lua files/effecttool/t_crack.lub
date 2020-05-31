@@ -1,0 +1,668 @@
+-- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
+-- Command line: .\lua files\effecttool\t_crack.lub 
+
+-- params : ...
+-- function num : 0
+_t_crack_effect_version = 2
+_t_crack_emitterInfo = {
+[0] = {
+dir1 = {-3, 5, -5}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {68.3, -131, -36.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 100}
+, 
+rate = {1, 3}
+, 
+size = {30, 40}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.6}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {3}
+, 
+zenable = {1}
+}
+, 
+[1] = {
+dir1 = {-3, 5, 5}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {71, -124, -154.4}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {1, 3}
+, 
+size = {20, 25}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.5}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {4}
+, 
+zenable = {1}
+}
+, 
+[2] = {
+dir1 = {-3, 5, -5}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {5, -122, -91.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {1, 3}
+, 
+size = {20, 30}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.6}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {3}
+, 
+zenable = {1}
+}
+, 
+[3] = {
+dir1 = {-5, 5, -5}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {235.9, -145, -115.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {1, 3}
+, 
+size = {20, 30}
+, 
+life = {3, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.6}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {3}
+, 
+zenable = {1}
+}
+, 
+[4] = {
+dir1 = {-5, 5, -5}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {249.5, -136, 129.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {1, 3}
+, 
+size = {20, 30}
+, 
+life = {3, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.6}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {3}
+, 
+zenable = {1}
+}
+, 
+[5] = {
+dir1 = {-6, 5, -6}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {50.9, -133, 269.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {3, 4}
+, 
+size = {20, 25}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.5}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {4}
+, 
+zenable = {1}
+}
+, 
+[6] = {
+dir1 = {-6, 5, -6}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {88, -129, -244.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {3, 4}
+, 
+size = {20, 30}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.5}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {4}
+, 
+zenable = {1}
+}
+, 
+[7] = {
+dir1 = {-6, 5, -6}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-113.2, -126, 49.7}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {3, 4}
+, 
+size = {30, 40}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.5}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {4}
+, 
+zenable = {1}
+}
+, 
+[8] = {
+dir1 = {-3, 5, -5}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-345.5, -129.4, 218}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {1, 3}
+, 
+size = {20, 30}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.6}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {3}
+, 
+zenable = {1}
+}
+, 
+[9] = {
+dir1 = {-3, 5, -5}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-150.1, -122, 135.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {1, 3}
+, 
+size = {20, 30}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.6}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {3}
+, 
+zenable = {1}
+}
+, 
+[10] = {
+dir1 = {-3, 5, -5}
+, 
+dir2 = {7, 0, 7}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-299.6, -125.4, 170.2}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {1, 3}
+, 
+size = {20, 30}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.6}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {3}
+, 
+zenable = {1}
+}
+, 
+[11] = {
+dir1 = {-3, 5, -5}
+, 
+dir2 = {7, 0, 7}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-224.7, -124, 96.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {4, 5}
+, 
+size = {20, 30}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.6}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {3}
+, 
+zenable = {1}
+}
+, 
+[12] = {
+dir1 = {-3, 5, -5}
+, 
+dir2 = {7, 0, 7}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-159.1, -121, -245.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {4, 5}
+, 
+size = {20, 30}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.6}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {3}
+, 
+zenable = {1}
+}
+, 
+[13] = {
+dir1 = {-3, 5, 5}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-333.5, -126, -81.2}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {1, 3}
+, 
+size = {20, 25}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.5}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {4}
+, 
+zenable = {1}
+}
+, 
+[14] = {
+dir1 = {-6, 5, -6}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {141, -137, -263.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {3, 4}
+, 
+size = {20, 30}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.5}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {4}
+, 
+zenable = {1}
+}
+, 
+[15] = {
+dir1 = {-3, 5, -5}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {123.9, -155, -89.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 100}
+, 
+rate = {1, 3}
+, 
+size = {20, 30}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.6}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {3}
+, 
+zenable = {1}
+}
+, 
+[16] = {
+dir1 = {-3, 5, -5}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {258.8, -136, -57.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {1, 3}
+, 
+size = {20, 30}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.6}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {3}
+, 
+zenable = {1}
+}
+, 
+[17] = {
+dir1 = {-5, 5, -5}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {190.3, -146, 143.5}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {1, 3}
+, 
+size = {30, 35}
+, 
+life = {3, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.6}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {3}
+, 
+zenable = {1}
+}
+, 
+[18] = {
+dir1 = {-6, 5, -6}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-15.7, -130, 255.2}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {3, 4}
+, 
+size = {30, 40}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.5}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {4}
+, 
+zenable = {1}
+}
+, 
+[19] = {
+dir1 = {-6, 5, -6}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-273.1, -133, -41.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {3, 4}
+, 
+size = {30, 40}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.5}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {4}
+, 
+zenable = {1}
+}
+, 
+[20] = {
+dir1 = {-3, 5, -5}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-210.8, -135, 16.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {1, 3}
+, 
+size = {20, 30}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.6}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {3}
+, 
+zenable = {1}
+}
+, 
+[21] = {
+dir1 = {-6, 5, -6}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-100, -137, -200}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {3, 4}
+, 
+size = {30, 40}
+, 
+life = {5, 6}
+, texture = "effect\\star02_1.bmp", 
+speed = {0.5}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {4}
+, 
+zenable = {1}
+}
+}
+

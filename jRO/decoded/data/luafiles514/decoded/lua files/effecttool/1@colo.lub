@@ -1,0 +1,518 @@
+-- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
+-- Command line: .\lua files\effecttool\1@colo.lub 
+
+-- params : ...
+-- function num : 0
+_1colo_effect_version = 2
+_1colo_emitterInfo = {
+[0] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {1033044928, 0, 8514120}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 255}
+, 
+rate = {1, 3}
+, 
+size = {6, 8}
+, 
+life = {3, 4}
+, texture = "effect\\smoke2.bmp", 
+speed = {1}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+, 
+billboard_off = {0}
+, 
+rotate_angle = {0, 0, 0}
+}
+, 
+[1] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-262.9, -68, 38.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {10, 40, 85, 30}
+, 
+rate = {1, 3}
+, 
+size = {50, 60}
+, 
+life = {3, 4}
+, texture = "effect\\colo_light.bmp", 
+speed = {0}
+, 
+srcmode = {5}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+, 
+billboard_off = {0}
+, 
+rotate_angle = {0, 0, 0}
+}
+, 
+[2] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-174.2, -29, 39.2}
+, 
+radius = {0, 0, 0}
+, 
+color = {10, 15, 15, 30}
+, 
+rate = {7, 10}
+, 
+size = {5, 15}
+, 
+life = {1, 4}
+, texture = "effect\\all_fire_03.bmp", 
+speed = {0.5}
+, 
+srcmode = {2}
+, 
+destmode = {7}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+, 
+billboard_off = {0}
+, 
+rotate_angle = {0, 0, 0}
+}
+, 
+[3] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {1026700736, 0, 8514120}
+, 
+radius = {0, 0, 0}
+, 
+color = {0, 40, 60, 30}
+, 
+rate = {1, 3}
+, 
+size = {40, 60}
+, 
+life = {3, 4}
+, texture = "effect\\devil_fire09.bmp", 
+speed = {1}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {3}
+, 
+zenable = {1}
+, 
+billboard_off = {0}
+, 
+rotate_angle = {0, 0, 0}
+}
+, 
+[4] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {294121920, 0, 8514120}
+, 
+radius = {0, 0, 0}
+, 
+color = {0, 50, 130, 30}
+, 
+rate = {7, 10}
+, 
+size = {5, 20}
+, 
+life = {1, 4}
+, texture = "effect\\all_fire_03.bmp", 
+speed = {1}
+, 
+srcmode = {2}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+, 
+billboard_off = {0}
+, 
+rotate_angle = {0, 0, 0}
+}
+, 
+[5] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {294121920, 0, 8514120}
+, 
+radius = {0, 0, 0}
+, 
+color = {0, 50, 130, 30}
+, 
+rate = {7, 10}
+, 
+size = {5, 20}
+, 
+life = {1, 4}
+, texture = "effect\\all_fire_03.bmp", 
+speed = {1}
+, 
+srcmode = {2}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+, 
+billboard_off = {0}
+, 
+rotate_angle = {0, 0, 0}
+}
+, 
+[6] = {
+dir1 = {0, -5, 0}
+, 
+dir2 = {0, 0, 0}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-174.8, -30, 38.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {0, 100, 200, 30}
+, 
+rate = {10, 10}
+, 
+size = {5, 8}
+, 
+life = {1, 4}
+, texture = "effect\\smoke3.bmp", 
+speed = {1}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+, 
+billboard_off = {0}
+, 
+rotate_angle = {0, 0, 0}
+}
+, 
+[7] = {
+dir1 = {-2, -5, 2}
+, 
+dir2 = {2, 0, -2}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-174.7, -33, 39}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 30}
+, 
+rate = {1, 5}
+, 
+size = {2, 6}
+, 
+life = {2, 4}
+, texture = "effect\\firee_b.bmp", 
+speed = {1.5}
+, 
+srcmode = {2}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+, 
+billboard_off = {0}
+, 
+rotate_angle = {0, 0, 0}
+}
+, 
+[8] = {
+dir1 = {0, -5, 0}
+, 
+dir2 = {0, 0, 0}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-174.6, -30, 38.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {50, 30, 200, 30}
+, 
+rate = {10, 10}
+, 
+size = {3, 7}
+, 
+life = {1, 4}
+, texture = "effect\\smoke3.bmp", 
+speed = {1}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+, 
+billboard_off = {0}
+, 
+rotate_angle = {0, 0, 0}
+}
+, 
+[9] = {
+dir1 = {0, -5, 0}
+, 
+dir2 = {0, 0, 0}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-174.7, -30, 38.7}
+, 
+radius = {0, 0, 0}
+, 
+color = {0, 20, 40, 30}
+, 
+rate = {10, 10}
+, 
+size = {3, 7}
+, 
+life = {1, 4}
+, texture = "effect\\smoke3.bmp", 
+speed = {1}
+, 
+srcmode = {2}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+, 
+billboard_off = {0}
+, 
+rotate_angle = {0, 0, 0}
+}
+, 
+[10] = {
+dir1 = {-2, -5, 2}
+, 
+dir2 = {2, 0, -2}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-352.5, -33, 37.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {255, 255, 255, 30}
+, 
+rate = {1, 5}
+, 
+size = {2, 6}
+, 
+life = {2, 4}
+, texture = "effect\\firee_b.bmp", 
+speed = {1.5}
+, 
+srcmode = {2}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+, 
+billboard_off = {0}
+, 
+rotate_angle = {0, 0, 0}
+}
+, 
+[11] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-352.2, -30, 37.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {10, 15, 15, 30}
+, 
+rate = {7, 10}
+, 
+size = {5, 15}
+, 
+life = {1, 4}
+, texture = "effect\\all_fire_03.bmp", 
+speed = {0.5}
+, 
+srcmode = {2}
+, 
+destmode = {7}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+, 
+billboard_off = {0}
+, 
+rotate_angle = {0, 0, 0}
+}
+, 
+[12] = {
+dir1 = {0, -5, 0}
+, 
+dir2 = {0, 0, 0}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-352.3, -29, 38}
+, 
+radius = {0, 0, 0}
+, 
+color = {0, 100, 200, 30}
+, 
+rate = {10, 10}
+, 
+size = {5, 8}
+, 
+life = {1, 4}
+, texture = "effect\\smoke3.bmp", 
+speed = {1}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+, 
+billboard_off = {0}
+, 
+rotate_angle = {0, 0, 0}
+}
+, 
+[13] = {
+dir1 = {0, -5, 0}
+, 
+dir2 = {0, 0, 0}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-352.1, -30, 37.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {0, 20, 40, 30}
+, 
+rate = {10, 10}
+, 
+size = {3, 7}
+, 
+life = {1, 4}
+, texture = "effect\\smoke3.bmp", 
+speed = {1}
+, 
+srcmode = {2}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+, 
+billboard_off = {0}
+, 
+rotate_angle = {0, 0, 0}
+}
+, 
+[14] = {
+dir1 = {0, -5, 0}
+, 
+dir2 = {0, 0, 0}
+, 
+gravity = {0, -2, 0}
+, 
+pos = {-352.5, -30, 37.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {50, 30, 200, 30}
+, 
+rate = {10, 10}
+, 
+size = {3, 7}
+, 
+life = {1, 4}
+, texture = "effect\\smoke3.bmp", 
+speed = {1}
+, 
+srcmode = {10}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+, 
+billboard_off = {0}
+, 
+rotate_angle = {0, 0, 0}
+}
+}
+
