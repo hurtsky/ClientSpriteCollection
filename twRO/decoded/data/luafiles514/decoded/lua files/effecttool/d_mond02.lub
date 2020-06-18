@@ -1,0 +1,398 @@
+-- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
+-- Command line: .\data\luafiles514\lua files\effecttool\d_mond02.lub 
+
+-- params : ...
+-- function num : 0
+_d_mond02_effect_version = 2
+_d_mond02_emitterInfo = {
+[0] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {250.9, -13, -67.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {20, 20}
+, 
+life = {30, 30}
+, texture = "effect\\pokjuk_c.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[1] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {285, 110, -100.2}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {20, 20}
+, 
+life = {30, 30}
+, texture = "effect\\pokjuk_c.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[2] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {291.4, -3, -124.5}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {15, 15}
+, 
+life = {30, 30}
+, texture = "effect\\pokjuk_c.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[3] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {376.6, -4, -80.7}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {20, 20}
+, 
+life = {30, 30}
+, texture = "effect\\pokjuk_c.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[4] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {337.8, -10, -163.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {20, 20}
+, 
+life = {30, 30}
+, texture = "effect\\pokjuk_c.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[5] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {323.5, 1, -63.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {20, 20}
+, 
+life = {30, 30}
+, texture = "effect\\pokjuk_c.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[6] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {307.7, -10, -65}
+, 
+radius = {0, 0, 0}
+, 
+color = {14, 12, 10, 75}
+, 
+rate = {10, 10}
+, 
+size = {40, 40}
+, 
+life = {30, 30}
+, texture = "effect\\glow11.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[7] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {300.2, -4, -124.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {14, 12, 10, 75}
+, 
+rate = {10, 10}
+, 
+size = {35, 35}
+, 
+life = {30, 30}
+, texture = "effect\\glow11.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[8] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-288.1, -14, 289.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {12, 10, 8, 75}
+, 
+rate = {10, 10}
+, 
+size = {40, 40}
+, 
+life = {30, 30}
+, texture = "effect\\glow11.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[9] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {375.8, -15, -78.7}
+, 
+radius = {0, 0, 0}
+, 
+color = {12, 10, 8, 75}
+, 
+rate = {10, 10}
+, 
+size = {40, 40}
+, 
+life = {30, 30}
+, texture = "effect\\glow11.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[10] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {247.6, -24, -58.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {0, 15, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {20, 20}
+, 
+life = {30, 30}
+, texture = "effect\\glow11.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[11] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-208, -11, 280.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {12, 10, 8, 75}
+, 
+rate = {10, 10}
+, 
+size = {20, 20}
+, 
+life = {30, 30}
+, texture = "effect\\glow11.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[12] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {307, -4, -121.5}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {15, 15}
+, 
+life = {30, 30}
+, texture = "effect\\pokjuk_c.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+}
+

@@ -1,4 +1,6 @@
 ## Sprite Folder List
+### 몬스터 > Monster Sprites
+### 도람족 > Doram + Wedding Sprites
 ### 로브 > Robes
 ### 아이템 > Icons + Item Drop Sprites
 ### 악세사리 > Headgears
@@ -62,6 +64,7 @@
  * /초보자 = Novice
  * /프리스트 = Priest
  * /헌터 = Hunter
+### 이팩트 > Skill and Hat Effects
 ### npc > NPC Sprites
   
 Note: For the original list, visit [RateMyServer.net](https://ratemyserver.net/index.php?page=riot_bible_main)

@@ -1,0 +1,1088 @@
+-- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
+-- Command line: .\data\luafiles514\lua files\effecttool\d_mond03.lub 
+
+-- params : ...
+-- function num : 0
+_d_mond03_effect_version = 2
+_d_mond03_emitterInfo = {
+[0] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-25.5, -12, -59.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {10, 10}
+, 
+life = {30, 30}
+, texture = "effect\\freeze.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[1] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-47.3, -2, -62.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {10, 10}
+, 
+life = {30, 30}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[2] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-14.3, -45, -55.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {6, 6}
+, 
+life = {30, 30}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[3] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-22.7, -43, -1.2}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 30, 50, 50}
+, 
+rate = {2, 5}
+, 
+size = {20, 25}
+, 
+life = {2, 4}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[4] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-58.9, 21, 16.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {10, 10}
+, 
+life = {30, 30}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[5] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {47.3, 21, -11.7}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {10, 10}
+, 
+life = {30, 30}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[6] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {24.6, 45, -40.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {7, 7}
+, 
+life = {30, 30}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[7] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {44.1, -4, 36.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {7, 7}
+, 
+life = {30, 30}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[8] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {52.3, 3, 53.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {7, 7}
+, 
+life = {30, 30}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[9] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-38.3, -3, -34.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {50, 50, 20, 100}
+, 
+rate = {2, 5}
+, 
+size = {25, 25}
+, 
+life = {2, 5}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[10] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-51.4, -33, 64.4}
+, 
+radius = {0, 0, 0}
+, 
+color = {50, 50, 20, 100}
+, 
+rate = {2, 5}
+, 
+size = {25, 25}
+, 
+life = {2, 5}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[11] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {42.9, 12, 42.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {50, 50, 20, 100}
+, 
+rate = {2, 5}
+, 
+size = {25, 25}
+, 
+life = {2, 5}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[12] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-3.6, 32, 56.7}
+, 
+radius = {0, 0, 0}
+, 
+color = {50, 50, 20, 100}
+, 
+rate = {2, 5}
+, 
+size = {25, 25}
+, 
+life = {2, 5}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[13] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-59.5, -43, -37.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {7, 7}
+, 
+life = {30, 30}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[14] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {20.6, -2, -7.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {7, 7}
+, 
+life = {30, 30}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[15] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-66, -6, 42.2}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {7, 7}
+, 
+life = {30, 30}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[16] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {64.4, -22, -17.4}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {10, 10}
+, 
+life = {30, 30}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[17] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-12.4, -9, 64}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {9, 9}
+, 
+life = {30, 30}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[18] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {12.7, 26, -62.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {4, 4}
+, 
+life = {30, 30}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[19] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {46, -20, 30.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {9, 9}
+, 
+life = {30, 30}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[20] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-47.8, -20, 20.5}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {9, 9}
+, 
+life = {30, 30}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[21] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {24.9, -24, 61.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {50, 50, 20, 100}
+, 
+rate = {2, 5}
+, 
+size = {40, 40}
+, 
+life = {2, 5}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[22] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {52.7, -46, 22.8}
+, 
+radius = {0, 0, 0}
+, 
+color = {50, 50, 20, 100}
+, 
+rate = {2, 5}
+, 
+size = {40, 40}
+, 
+life = {2, 5}
+, texture = "effect\\freeze.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[23] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {26.6, -39, -48.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {50, 50, 20, 80}
+, 
+rate = {2, 5}
+, 
+size = {45, 45}
+, 
+life = {2, 5}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[24] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-34.6, -39, -55}
+, 
+radius = {0, 0, 0}
+, 
+color = {50, 50, 20, 100}
+, 
+rate = {2, 5}
+, 
+size = {40, 40}
+, 
+life = {2, 5}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[25] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-63.8, -58, -16}
+, 
+radius = {0, 0, 0}
+, 
+color = {50, 50, 20, 100}
+, 
+rate = {2, 5}
+, 
+size = {50, 50}
+, 
+life = {2, 5}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[26] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-80.3, -30, 7.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {50, 50, 20, 100}
+, 
+rate = {2, 5}
+, 
+size = {50, 50}
+, 
+life = {2, 5}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[27] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-25.9, -78, 5.5}
+, 
+radius = {0, 0, 0}
+, 
+color = {50, 50, 20, 100}
+, 
+rate = {2, 5}
+, 
+size = {50, 50}
+, 
+life = {2, 5}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[28] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {45.6, -39, -28.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {50, 50, 20, 70}
+, 
+rate = {2, 5}
+, 
+size = {40, 40}
+, 
+life = {2, 5}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[29] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-28, 13, 63.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {50, 50, 20, 100}
+, 
+rate = {2, 5}
+, 
+size = {50, 50}
+, 
+life = {2, 5}
+, texture = "effect\\freeze_ice_part.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {20}
+, 
+zenable = {1}
+}
+, 
+[30] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-63.6, -44, 10.9}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {40, 40}
+, 
+life = {30, 30}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[31] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {6.2, -30, 69.1}
+, 
+radius = {0, 0, 0}
+, 
+color = {50, 50, 20, 100}
+, 
+rate = {2, 5}
+, 
+size = {30, 30}
+, 
+life = {2, 5}
+, texture = "effect\\freeze.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {15}
+, 
+zenable = {1}
+}
+, 
+[32] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {1.5, -37, 51.4}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {40, 40}
+, 
+life = {30, 30}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[33] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {30.6, -39, 52.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {40, 40}
+, 
+life = {30, 30}
+, texture = "effect\\freeze.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[34] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {34.4, -41, 0.3}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {35, 35}
+, 
+life = {30, 30}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+, 
+[35] = {
+dir1 = {-3, -5, -3}
+, 
+dir2 = {5, 0, 5}
+, 
+gravity = {0.7, -2, 0.7}
+, 
+pos = {-24.6, -42, -52.6}
+, 
+radius = {0, 0, 0}
+, 
+color = {30, 25, 20, 75}
+, 
+rate = {10, 10}
+, 
+size = {35, 35}
+, 
+life = {30, 30}
+, texture = "smoke2.bmp", 
+speed = {0}
+, 
+srcmode = {9}
+, 
+destmode = {2}
+, 
+maxcount = {10}
+, 
+zenable = {1}
+}
+}
+

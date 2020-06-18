@@ -2,7 +2,7 @@
 echo Japanese RO Client
 echo -------------------------------
 echo System:
-luadec.exe ".\data\luafiles514\System\iteminfo.lub" > ".\data\luafiles514\System\iteminfo.lua"
+luadec.exe ".\System\iteminfo.lub" > ".\System\iteminfo.lua"
 echo -------------------------------
 echo Switching to data\luafiles514\
 echo -------------------------------
