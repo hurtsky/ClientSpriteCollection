@@ -1,5 +1,5 @@
 -- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: .\lua files\HatEffectInfo\HatEffectInfo.lub 
+-- Command line: .\data\luafiles514\lua files\HatEffectInfo\HatEffectInfo.lub 
 
 -- params : ...
 -- function num : 0
@@ -275,7 +275,7 @@ hatEffectTable = {
 , 
 [HatEFID.HAT_EF_C_Disapear_Time_TW] = {resourceFileName = "efst_C_Disapear_Time_TW\\cdhs.str", hatEffectPos = -6, hatEffectPosX = 0, isAdjustPositionWhenShrinkState = true, isAdjustSizeWhenShrinkState = true}
 }
-effectHatItemTable = {20285, 20209, 31091, 31089, 31056, 20062, 20439, 5979, 20487, 5914, 20457, 31142, 20240, 19871, 18742, 20154, 18744, 20323, 20246, 19022, 18741, 18719, 20600, 20515, 31391, 31602, 19416, 19433, 20535, 31316, 20519, 410006, 20538, 31768, 400073, 400074, 20547}
+effectHatItemTable = {20285, 20209, 31091, 31089, 31056, 20062, 20439, 5979, 20487, 5914, 20457, 31142, 20240, 19871, 18742, 20154, 18744, 20323, 20246, 19022, 18741, 18719, 20600, 20515, 31391, 31602, 19416, 19433, 20535, 31316, 20519, 410006, 20538, 31768, 400073, 20547}
 GetHatEfResName = function(index)
   -- function num : 0_0
   if hatEffectTable == nil then

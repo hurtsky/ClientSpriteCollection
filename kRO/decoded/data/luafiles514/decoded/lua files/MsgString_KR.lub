@@ -1,5 +1,5 @@
 -- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: .\lua files\MsgString_KR.lub 
+-- Command line: .\data\luafiles514\lua files\MsgString_KR.lub 
 
 -- params : ...
 -- function num : 0

@@ -1,10 +1,40 @@
 -- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: .\lua files\datainfo\LapineDdukDDakBox.lub 
+-- Command line: .\data\luafiles514\lua files\datainfo\LapineDdukDDakBox.lub 
 
 -- params : ...
 -- function num : 0
 tblLapineDdukddakBox = {
 sources = {
+Crimson_Rose_Cube = {ItemID = 100404, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"Crimson_Rose", 1, 32302}
+}
+, NeedSource_String = "크림슨 로즈"}
+, 
+Master_Soul_Rifle_Cube = {ItemID = 100405, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"Master_Soul_Rifle", 1, 28255}
+}
+, NeedSource_String = "마스터 소울 라이플"}
+, 
+Golden_L_Launcher_Cube = {ItemID = 100406, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"Golden_L_Launcher", 1, 28257}
+}
+, NeedSource_String = "골든 로드 런처"}
+, 
+The_Black_Gatling_Cube = {ItemID = 100407, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"The_Black_Gatling", 1, 28258}
+}
+, NeedSource_String = "더 블랙"}
+, 
+Demon_S_Shot_Cube = {ItemID = 100408, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
+SourceItems = {
+{"Demon_S_Shot", 1, 28256}
+}
+, NeedSource_String = "데몬 슬레이어 샷"}
+, 
 MeawFoxtail_Cube = {ItemID = 100399, NeedCount = 1, NeedRefineMin = 9, NeedRefineMax = 20, 
 SourceItems = {
 {"MeawFoxtail", 1, 26155}
@@ -3016,6 +3046,54 @@ SourceItems = {
 {"S_Super_Power_Pendant", 1, 24620}
 , 
 {"S_Super_Power_Earing", 1, 24621}
+, 
+{"S_Kunai_Weapon", 1, 24622}
+, 
+{"S_Kunai_Shield", 1, 24623}
+, 
+{"S_Kunai_Armor", 1, 24624}
+, 
+{"S_Syuriken_Earing", 1, 24625}
+, 
+{"S_Syuriken_Pendant", 1, 24626}
+, 
+{"S_Syuriken_Shoes", 1, 24627}
+, 
+{"S_Kamaenraku_Weapon", 1, 24628}
+, 
+{"S_Kamaenraku_Shield", 1, 24629}
+, 
+{"S_Kamaenraku_Armor", 1, 24630}
+, 
+{"S_Huusouka_Earing", 1, 24631}
+, 
+{"S_Huusouka_Pendant", 1, 24632}
+, 
+{"S_Huusouka_Shoes", 1, 24633}
+, 
+{"S_Pickyrush_Weapon", 1, 24634}
+, 
+{"S_Pickyrush_Shield", 1, 24635}
+, 
+{"S_Pickyrush_Armor", 1, 24636}
+, 
+{"S_SavageRabbit_Earing", 1, 24637}
+, 
+{"S_SavageRabbit_Pendant", 1, 24638}
+, 
+{"S_SavageRabbit_Shoes", 1, 24639}
+, 
+{"S_Catnip_Weapon", 1, 24640}
+, 
+{"S_Catnip_Shield", 1, 24641}
+, 
+{"S_Catnip_Armor", 1, 24642}
+, 
+{"S_Silvervine_Earing", 1, 24643}
+, 
+{"S_Silvervine_Pendant", 1, 24644}
+, 
+{"S_Silvervine_Shoes", 1, 24645}
 }
 , NeedSource_String = "쉐도우 아이템"}
 , 
@@ -4570,6 +4648,22 @@ SourceItems = {
 {"C보고있어", 1, 31176}
 , 
 {"C울프마스커레이드", 1, 31179}
+, 
+{"C_Mike_Stand", 1, 31930}
+, 
+{"C_Baby_Polar_Bear", 1, 31923}
+, 
+{"C_Runaway_Accelerator", 1, 31849}
+, 
+{"C_Half_Rim_Glasses", 1, 31931}
+, 
+{"C_GiantCatBag_JP_BL", 1, 20598}
+, 
+{"C_Romance_Rose_TW", 1, 400073}
+, 
+{"C_Disapear_Time_TW", 1, 400074}
+, 
+{"C_Magic_Heir_TW", 1, 410005}
 }
 , NeedSource_String = "냥다래 의상"}
 }

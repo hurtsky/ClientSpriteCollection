@@ -30,6 +30,10 @@ luadec.exe ".\System\ShadowTable.lub" > ".\System\ShadowTable.lua"
 luadec.exe ".\System\tipbox.lub" > ".\System\tipbox.lua"
 luadec.exe ".\System\Towninfo.lub" > ".\System\Towninfo.lua"
 echo -------------------------------
+echo System\LuaFiles514\
+luadec.exe ".\System\LuaFiles514\MsgString.lub" > ".\System\LuaFiles514\MsgString.lua"
+luadec.exe ".\System\LuaFiles514\OptionInfo.lub" > ".\System\LuaFiles514\OptionInfo.lua"
+echo -------------------------------
 echo Switching to data\luafiles514\
 echo -------------------------------
 echo data\luafiles514\datainfo:

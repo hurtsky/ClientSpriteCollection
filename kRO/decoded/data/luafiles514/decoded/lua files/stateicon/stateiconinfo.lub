@@ -1,5 +1,5 @@
 -- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: .\lua files\stateicon\stateiconinfo.lub 
+-- Command line: .\data\luafiles514\lua files\stateicon\stateiconinfo.lub 
 
 -- params : ...
 -- function num : 0
@@ -6458,7 +6458,7 @@ descript = {
 
 StateIconList[EFST_IDs.EFST_FLOWER_LEAF2] = {haveTimeLimit = 1, posTimeLimitStr = 2, 
 descript = {
-{"화려한 꽃가지", COLOR_TITLE_BUFF}
+{"회피, 공격속도 증가, 변동 캐스팅 감소", COLOR_TITLE_BUFF}
 , 
 {"%s", COLOR_TIME}
 , 

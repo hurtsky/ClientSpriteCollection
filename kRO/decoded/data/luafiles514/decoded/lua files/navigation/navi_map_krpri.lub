@@ -1,5 +1,5 @@
 -- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: .\lua files\navigation\navi_map_krpri.lub 
+-- Command line: .\data\luafiles514\lua files\navigation\navi_map_krpri.lub 
 
 -- params : ...
 -- function num : 0
@@ -196,9 +196,9 @@ Navi_Map = {
 , 
 {"dic_in01", "디카스테스 내부", 5003, 400, 300}
 , 
-{"dicastes01", "사파 수도 엘 디카스테스", 5001, 400, 400}
+{"dicastes01", "사파 수도 엘 디카스테스", 5005, 400, 400}
 , 
-{"dicastes02", "브룸벨드 요르히 숲", 5001, 240, 360}
+{"dicastes02", "브룸벨드 요르히 숲", 5005, 240, 360}
 , 
 {"e_tower", "미스티 아일랜드", 5001, 300, 300}
 , 

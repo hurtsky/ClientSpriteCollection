@@ -1,5 +1,5 @@
 -- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: .\lua files\datainfo\LapineUpgradeBox.lub 
+-- Command line: .\data\luafiles514\lua files\datainfo\LapineUpgradeBox.lub 
 
 -- params : ...
 -- function num : 0
@@ -104,6 +104,16 @@ TargetItems = {
 {"Up_Fog_Dew_Sword", 510022}
 , 
 {"Up_Humma_Clear", 650004}
+, 
+{"Up_Master_Soul_Rifle", 810001}
+, 
+{"Up_Golden_L_Launcher", 840001}
+, 
+{"Up_The_Black_Gatling", 830002}
+, 
+{"Up_Demon_S_Shot", 820001}
+, 
+{"Up_Crimson_Rose", 800002}
 }
 , NeedSource_String = "개방된 영웅의 무기"}
 , 
@@ -164,6 +174,16 @@ TargetItems = {
 {"Up_Fog_Dew_Sword", 510022}
 , 
 {"Up_Humma_Clear", 650004}
+, 
+{"Up_Master_Soul_Rifle", 810001}
+, 
+{"Up_Golden_L_Launcher", 840001}
+, 
+{"Up_The_Black_Gatling", 830002}
+, 
+{"Up_Demon_S_Shot", 820001}
+, 
+{"Up_Crimson_Rose", 800002}
 }
 , NeedSource_String = "개방된 영웅의 무기"}
 , 
@@ -1244,6 +1264,54 @@ TargetItems = {
 {"S_Super_Power_Pendant", 24620}
 , 
 {"S_Super_Power_Earing", 24621}
+, 
+{"S_Kunai_Weapon", 24622}
+, 
+{"S_Kunai_Shield", 24623}
+, 
+{"S_Kunai_Armor", 24624}
+, 
+{"S_Syuriken_Earing", 24625}
+, 
+{"S_Syuriken_Pendant", 24626}
+, 
+{"S_Syuriken_Shoes", 24627}
+, 
+{"S_Kamaenraku_Weapon", 24628}
+, 
+{"S_Kamaenraku_Shield", 24629}
+, 
+{"S_Kamaenraku_Armor", 24630}
+, 
+{"S_Huusouka_Earing", 24631}
+, 
+{"S_Huusouka_Pendant", 24632}
+, 
+{"S_Huusouka_Shoes", 24633}
+, 
+{"S_Pickyrush_Weapon", 24634}
+, 
+{"S_Pickyrush_Shield", 24635}
+, 
+{"S_Pickyrush_Armor", 24636}
+, 
+{"S_SavageRabbit_Earing", 24637}
+, 
+{"S_SavageRabbit_Pendant", 24638}
+, 
+{"S_SavageRabbit_Shoes", 24639}
+, 
+{"S_Catnip_Weapon", 24640}
+, 
+{"S_Catnip_Shield", 24641}
+, 
+{"S_Catnip_Armor", 24642}
+, 
+{"S_Silvervine_Earing", 24643}
+, 
+{"S_Silvervine_Pendant", 24644}
+, 
+{"S_Silvervine_Shoes", 24645}
 }
 , NeedSource_String = "스킬 쉐도우"}
 , 
@@ -1578,6 +1646,54 @@ TargetItems = {
 {"S_Super_Power_Pendant", 24620}
 , 
 {"S_Super_Power_Earing", 24621}
+, 
+{"S_Kunai_Weapon", 24622}
+, 
+{"S_Kunai_Shield", 24623}
+, 
+{"S_Kunai_Armor", 24624}
+, 
+{"S_Syuriken_Earing", 24625}
+, 
+{"S_Syuriken_Pendant", 24626}
+, 
+{"S_Syuriken_Shoes", 24627}
+, 
+{"S_Kamaenraku_Weapon", 24628}
+, 
+{"S_Kamaenraku_Shield", 24629}
+, 
+{"S_Kamaenraku_Armor", 24630}
+, 
+{"S_Huusouka_Earing", 24631}
+, 
+{"S_Huusouka_Pendant", 24632}
+, 
+{"S_Huusouka_Shoes", 24633}
+, 
+{"S_Pickyrush_Weapon", 24634}
+, 
+{"S_Pickyrush_Shield", 24635}
+, 
+{"S_Pickyrush_Armor", 24636}
+, 
+{"S_SavageRabbit_Earing", 24637}
+, 
+{"S_SavageRabbit_Pendant", 24638}
+, 
+{"S_SavageRabbit_Shoes", 24639}
+, 
+{"S_Catnip_Weapon", 24640}
+, 
+{"S_Catnip_Shield", 24641}
+, 
+{"S_Catnip_Armor", 24642}
+, 
+{"S_Silvervine_Earing", 24643}
+, 
+{"S_Silvervine_Pendant", 24644}
+, 
+{"S_Silvervine_Shoes", 24645}
 }
 , NeedSource_String = "스킬 쉐도우"}
 , 
@@ -1838,6 +1954,16 @@ TargetItems = {
 {"Up_Fog_Dew_Sword", 510022}
 , 
 {"Up_Humma_Clear", 650004}
+, 
+{"Up_Master_Soul_Rifle", 810001}
+, 
+{"Up_Golden_L_Launcher", 840001}
+, 
+{"Up_The_Black_Gatling", 830002}
+, 
+{"Up_Demon_S_Shot", 820001}
+, 
+{"Up_Crimson_Rose", 800002}
 }
 , NeedSource_String = "영웅의 무기"}
 , 
@@ -1970,6 +2096,16 @@ TargetItems = {
 {"Up_Fog_Dew_Sword", 510022}
 , 
 {"Up_Humma_Clear", 650004}
+, 
+{"Up_Master_Soul_Rifle", 810001}
+, 
+{"Up_Golden_L_Launcher", 840001}
+, 
+{"Up_The_Black_Gatling", 830002}
+, 
+{"Up_Demon_S_Shot", 820001}
+, 
+{"Up_Crimson_Rose", 800002}
 }
 , NeedSource_String = "영웅의 무기"}
 , 
@@ -3560,6 +3696,54 @@ TargetItems = {
 {"S_Super_Power_Pendant", 24620}
 , 
 {"S_Super_Power_Earing", 24621}
+, 
+{"S_Kunai_Weapon", 24622}
+, 
+{"S_Kunai_Shield", 24623}
+, 
+{"S_Kunai_Armor", 24624}
+, 
+{"S_Syuriken_Earing", 24625}
+, 
+{"S_Syuriken_Pendant", 24626}
+, 
+{"S_Syuriken_Shoes", 24627}
+, 
+{"S_Kamaenraku_Weapon", 24628}
+, 
+{"S_Kamaenraku_Shield", 24629}
+, 
+{"S_Kamaenraku_Armor", 24630}
+, 
+{"S_Huusouka_Earing", 24631}
+, 
+{"S_Huusouka_Pendant", 24632}
+, 
+{"S_Huusouka_Shoes", 24633}
+, 
+{"S_Pickyrush_Weapon", 24634}
+, 
+{"S_Pickyrush_Shield", 24635}
+, 
+{"S_Pickyrush_Armor", 24636}
+, 
+{"S_SavageRabbit_Earing", 24637}
+, 
+{"S_SavageRabbit_Pendant", 24638}
+, 
+{"S_SavageRabbit_Shoes", 24639}
+, 
+{"S_Catnip_Weapon", 24640}
+, 
+{"S_Catnip_Shield", 24641}
+, 
+{"S_Catnip_Armor", 24642}
+, 
+{"S_Silvervine_Earing", 24643}
+, 
+{"S_Silvervine_Pendant", 24644}
+, 
+{"S_Silvervine_Shoes", 24645}
 }
 , NeedSource_String = "쉐도우 아이템"}
 , 
@@ -4754,6 +4938,54 @@ TargetItems = {
 {"S_Super_Power_Pendant", 24620}
 , 
 {"S_Super_Power_Earing", 24621}
+, 
+{"S_Kunai_Weapon", 24622}
+, 
+{"S_Kunai_Shield", 24623}
+, 
+{"S_Kunai_Armor", 24624}
+, 
+{"S_Syuriken_Earing", 24625}
+, 
+{"S_Syuriken_Pendant", 24626}
+, 
+{"S_Syuriken_Shoes", 24627}
+, 
+{"S_Kamaenraku_Weapon", 24628}
+, 
+{"S_Kamaenraku_Shield", 24629}
+, 
+{"S_Kamaenraku_Armor", 24630}
+, 
+{"S_Huusouka_Earing", 24631}
+, 
+{"S_Huusouka_Pendant", 24632}
+, 
+{"S_Huusouka_Shoes", 24633}
+, 
+{"S_Pickyrush_Weapon", 24634}
+, 
+{"S_Pickyrush_Shield", 24635}
+, 
+{"S_Pickyrush_Armor", 24636}
+, 
+{"S_SavageRabbit_Earing", 24637}
+, 
+{"S_SavageRabbit_Pendant", 24638}
+, 
+{"S_SavageRabbit_Shoes", 24639}
+, 
+{"S_Catnip_Weapon", 24640}
+, 
+{"S_Catnip_Shield", 24641}
+, 
+{"S_Catnip_Armor", 24642}
+, 
+{"S_Silvervine_Earing", 24643}
+, 
+{"S_Silvervine_Pendant", 24644}
+, 
+{"S_Silvervine_Shoes", 24645}
 }
 , NeedSource_String = "쉐도우 아이템"}
 , 
@@ -5768,6 +6000,54 @@ TargetItems = {
 {"S_Super_Power_Pendant", 24620}
 , 
 {"S_Super_Power_Earing", 24621}
+, 
+{"S_Kunai_Weapon", 24622}
+, 
+{"S_Kunai_Shield", 24623}
+, 
+{"S_Kunai_Armor", 24624}
+, 
+{"S_Syuriken_Earing", 24625}
+, 
+{"S_Syuriken_Pendant", 24626}
+, 
+{"S_Syuriken_Shoes", 24627}
+, 
+{"S_Kamaenraku_Weapon", 24628}
+, 
+{"S_Kamaenraku_Shield", 24629}
+, 
+{"S_Kamaenraku_Armor", 24630}
+, 
+{"S_Huusouka_Earing", 24631}
+, 
+{"S_Huusouka_Pendant", 24632}
+, 
+{"S_Huusouka_Shoes", 24633}
+, 
+{"S_Pickyrush_Weapon", 24634}
+, 
+{"S_Pickyrush_Shield", 24635}
+, 
+{"S_Pickyrush_Armor", 24636}
+, 
+{"S_SavageRabbit_Earing", 24637}
+, 
+{"S_SavageRabbit_Pendant", 24638}
+, 
+{"S_SavageRabbit_Shoes", 24639}
+, 
+{"S_Catnip_Weapon", 24640}
+, 
+{"S_Catnip_Shield", 24641}
+, 
+{"S_Catnip_Armor", 24642}
+, 
+{"S_Silvervine_Earing", 24643}
+, 
+{"S_Silvervine_Pendant", 24644}
+, 
+{"S_Silvervine_Shoes", 24645}
 }
 , NeedSource_String = "+7 쉐도우 아이템"}
 , 

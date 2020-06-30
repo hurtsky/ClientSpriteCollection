@@ -1,5 +1,5 @@
 -- Decompiled using luadec 2.2 rev: 895d923 for Lua 5.1 from https://github.com/viruscamp/luadec
--- Command line: .\lua files\navigation\navi_picknpc_krpri.lub 
+-- Command line: .\data\luafiles514\lua files\navigation\navi_picknpc_krpri.lub 
 
 -- params : ...
 -- function num : 0
@@ -56,13 +56,13 @@ navi_picknpc = {
 , 
 {"aldebaran", 183, 159, 20, 0, 2, 2, 2, 1886, 0, 0, 0}
 , 
-{"malangdo", 115, 156, 4049, 0, 3, 25, 0, 296, 0, 0, 0}
+{"malangdo", 115, 156, 4049, 0, 3, 25, 0, 0, 1994, 0, 0}
 , 
-{"malangdo", 117, 156, 4063, 0, 0, 2, 0, 0, 0, 0, 83}
+{"malangdo", 117, 156, 4063, 0, 0, 2, 0, 0, 2001, 0, 0}
 , 
-{"malangdo", 119, 156, 4055, 1, 0, 18, 7, 1577, 0, 0, 0}
+{"malangdo", 119, 156, 4055, 1, 0, 18, 7, 0, 2000, 0, 0}
 , 
-{"malangdo", 121, 156, 4067, 0, 2, 27, 0, 1580, 0, 0, 0}
+{"malangdo", 121, 156, 4067, 0, 2, 27, 0, 1947, 0, 0, 0}
 , 
 {"payon", 171, 171, 4239, 1, 0, 27, 0, 0, 0, 0, 0}
 , 
